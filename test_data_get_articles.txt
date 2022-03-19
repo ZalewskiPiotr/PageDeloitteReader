@@ -1,0 +1,7139 @@
+
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+    <html lang="pl">
+
+
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+
+    <script>
+		var dtmConfig = 'false';
+		var siteCatConfig = 'false';
+        // Added the below to fetch the Twine Social parameters
+        var twineSocialClientID = "MTY1ODcsUk9mSlVLWFdWQlZBTzdHWmFWQzVoRzlvTXd2c24wcjU%3D";
+        var twineSocialAccountCode = "15-I7FFXT";
+        var twineSocialGroupID = "";
+	</script>
+
+<meta charset="utf-8"/>
+
+    <meta name='description' content="Blog Zwinne Organizacje powstał jako odpowiedź na potrzebę dzielenia się wiedzą, przemyśleniami oraz doświadczeniem ekspertów Deloitte w praktykowaniu filozofii Agile. Promujemy podejście zwinne ponieważ sami wykorzystujemy metody, których wdrożenie doradzamy naszym klientom. Na blogu regularnie będą pojawiać się studia-przypadków, artykuły oraz wywiady obejmujące takie zagadnienia jak Agile, Lean, DevOps oraz Scrum."/>
+
+
+    <link rel="canonical" href="https://www2.deloitte.com/pl/pl/pages/technology/topics/blog-agile.html"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta property="fb:app_id" content="391573044299401"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Deloitte Polska"/>
+    <meta property="og:url" content="https://www2.deloitte.com/pl/pl/pages/technology/topics/blog-agile.html"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@DeloittePolska"/>
+    <meta name="twitter:url" content="https://www2.deloitte.com/pl/pl/pages/technology/topics/blog-agile.html"/>
+
+    <title>Zwinne organizacje | Blog o Agile</title>
+    <meta property="og:title" content="Zwinne organizacje | Blog o Agile"/>
+    <meta name="twitter:title" content="Zwinne organizacje | Blog o Agile"/>
+    <meta property="og:description" content="Blog Zwinne Organizacje powstał jako odpowiedź na potrzebę dzielenia się wiedzą, przemyśleniami oraz doświadczeniem ekspertów Deloitte w praktykowaniu filozofii Agile. Promujemy podejście zwinne ponieważ sami wykorzystujemy metody, których wdrożenie doradzamy naszym klientom. Na blogu regularnie będą pojawiać się studia-przypadków, artykuły oraz wywiady obejmujące takie zagadnienia jak Agile, Lean, DevOps oraz Scrum."/>
+    <meta name="twitter:description" content="Blog Zwinne Organizacje powstał jako odpowiedź na potrzebę dzielenia się wiedzą, przemyśleniami oraz doświadczeniem ekspertów Deloitte w praktykowaniu filozofii Agile. Promujemy podejście zwinne ponieważ sami wykorzystujemy metody, których wdrożenie doradzamy naszym klientom. Na blogu regularnie będą pojawiać się studia-przypadków, artykuły oraz wywiady obejmujące takie zagadnienia jak Agile, Lean, DevOps oraz Scrum."/>
+
+    <meta name="thumbnail" content="https://www2.deloitte.com/content/dam/Deloitte/pl/Images/promo_images/pl-blog-agile-promo-700-700.png"/>
+
+
+    <meta property="og:image" content="https://www2.deloitte.com/content/dam/Deloitte/pl/Images/promo_images/pl-blog-agile-promo-700-700.png"/>
+
+
+    <meta name="twitter:image" content="https://www2.deloitte.com/content/dam/Deloitte/pl/Images/promo_images/pl-blog-agile-promo-700-700.png"/>
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/dcom/dcom-main/clientlibs-jquery.min.1494c0abbe501301e2ab9daecc6082a8.js"></script>
+
+
+
+
+
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/content/dam/resources/deloitte/icons/favicon.ico"/>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/content/dam/resources/deloitte/icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/content/dam/resources/deloitte/icons/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/content/dam/resources/deloitte/icons/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/content/dam/resources/deloitte/icons/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="/content/dam/resources/deloitte/icons/apple-icon-144x144.png"/>
+
+    <meta name="msapplication-config" content="/content/dam/resources/deloitte/browserconfig.xml"/>
+
+
+
+
+    <script>
+      function loadScript(scriptURL){
+        // load script
+        var scriptTAG = document.createElement('script');
+        scriptTAG.type = 'application/javascript';
+        scriptTAG.async = true;
+        scriptTAG.src = scriptURL;
+        document.getElementsByTagName('head')[0].appendChild(scriptTAG);
+      }
+
+      function loadCSS(CSSURL){
+        // load css
+        var linkTAG = document.createElement('link');
+        linkTAG.rel = "stylesheet";
+        linkTAG.type = 'text/css';
+        linkTAG.href = CSSURL;
+        document.getElementsByTagName('head')[0].appendChild(linkTAG);
+      }
+      if(!navigator.onLine){
+        loadScript("/etc/designs/dcom/dcom-main/clientlibs-jquery.min.js");
+        loadScript("/etc/designs/dcom/dcom-main.min.js");
+        loadScript("/etc/designs/dcom/dcom-main-footer.min.js");
+        loadCSS("/etc/designs/dcom/dcom-main.min.css");
+      }
+    </script>
+
+
+
+
+
+<!-- Cookie compliance Consent Notice start -->
+
+  <script>
+		  var hostDetails = window.location.hostname;
+          var guid = "423cca18-05a5-496c-a457-026f31d054a1";
+          var abenabled = "";
+          var enableOverlay = "true";
+          if(guid){
+		  var ccm_enabled = true;
+          if(enableOverlay =="newotworkflow" && abenabled =="")
+                {
+                 var ccmscriptnew=document.createElement('script');
+                 ccmscriptnew.setAttribute("src", "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js");
+                 ccmscriptnew.setAttribute("type","text/javascript");
+                 ccmscriptnew.setAttribute("charset","UTF-8");
+                 if(hostDetails.indexOf('preview') >= 0){
+                 guid = guid+"-test";
+                 ccmscriptnew.setAttribute("data-domain-script", guid);
+                 } else{
+                 ccmscriptnew.setAttribute("data-domain-script", guid);
+                 }
+                 if (typeof ccmscriptnew!="undefined"){
+                   document.getElementsByTagName("head")[0].appendChild(ccmscriptnew);
+                 }
+				}
+
+                else if(enableOverlay =="newotworkflow" && abenabled)
+                {
+                 var ccmscriptautoblock=document.createElement('script');
+                 ccmscriptautoblock.setAttribute("type","text/javascript");
+                 if(hostDetails.indexOf('preview') >= 0){
+                 ccmscriptautoblock.setAttribute("src", "https://cdn.cookielaw.org/consent/"+guid+"-test"+"/OtAutoBlock.js");
+                 }else{
+                 ccmscriptautoblock.setAttribute("src", "https://cdn.cookielaw.org/consent/"+guid+"/OtAutoBlock.js");
+                 }
+                 if (typeof ccmscriptautoblock!="undefined"){
+                   document.getElementsByTagName("head")[0].appendChild(ccmscriptautoblock);
+                 }
+                 var ccmscriptnew=document.createElement('script');
+                 ccmscriptnew.setAttribute("src", "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js");
+                 ccmscriptnew.setAttribute("type","text/javascript");
+                 ccmscriptnew.setAttribute("charset","UTF-8");
+                 ccmscriptnew.setAttribute("data-domain-script", guid);
+                 if (typeof ccmscriptnew!="undefined"){
+                   document.getElementsByTagName("head")[0].appendChild(ccmscriptnew);
+                 }
+             }
+             else{
+                 if(hostDetails.indexOf('preview') >= 0){
+                    var guidUrl= "https://cdn.cookielaw.org/consent/"+guid+"-test.js";
+                 }
+                 else{
+                 	var guidUrl= "https://cdn.cookielaw.org/consent/"+guid+".js";
+                 }
+                 var ccmscript=document.createElement('script');
+                 ccmscript.setAttribute("type","text/javascript");
+                 ccmscript.setAttribute("src", guidUrl);
+                 if (typeof ccmscript!="undefined"){
+                   document.getElementsByTagName("head")[0].appendChild(ccmscript);
+                 }
+             }
+             }
+             </script>
+
+<!-- Cookie compliance Consent Notice end -->
+
+
+
+
+
+
+
+
+<script>
+
+		if(/MSIE (8\.[\.0-9]{0,})|MSIE (7\.[\.0-9]{0,})|MSIE (6\.[\.0-9]{0,})/i.test(navigator.userAgent)) {
+		window.location.href= "/pl/pl/misc/nonsupportedbrowserpage.pl.pl.pages.technology.topics.blog-agile.html";
+	}
+	var domain = 'https://www2.deloitte.com/';
+	var domainKey = 'deloitte';
+	var isEditMode = 'false';
+	var isDesignMode = 'false';
+	var isPreviewMode = 'false';
+	var sc_currentPageName = '/pl/pl/pages/technology/topics/blog-agile';
+	var sc_currentPageHashValue = '29e3d83b';
+	var sc_template = 'Deloitte_Full_Topic_Page';
+	var sc_recCuratedPromos = '';
+	var sc_recommArticle = 'Rekomendowane strony';
+	var sc_recViewedPage = 'Ostatnio oglądane strony';
+	var sc_featuredLink = 'Featured Link';
+	var sc_channel = '/content/www/pl/pl/pages';
+	var hideFromRecommendations_v2 = 'false';
+	var pagePathValue = '/pl/pl/pages/technology/topics/blog-agile';
+	var selectorString = '.';
+	var siteSectionOverrideVal = '';
+	var PAGE_NAME = "";
+	var GOOGLE_MF_ACCOUNT = "";
+	var GOOGLE_INCLUDE_GLOBAL = "";
+	var RESULTS_FOR_LBL = "";
+	var sc_secondLevelForProp5 = "";
+	var temp_Name = 'extendedtopicpage';
+	var isTempSite = false;
+	var sc_secondLevel = "Technology";
+	var sc_thirdLevel = 'Topics';
+	var sc_country = 'pl';
+	var sc_language = 'pl';
+	var siteOverrideValueProp5 = 'technology';
+	var sc_mfCountry = '';
+	var sc_GatedOverlayEnabled = 'false';
+	var sc_mfSite = 'Deloitte';
+	var sc_gigyaId = "";
+
+	if(siteSectionOverrideVal.length > 0 && (siteSectionOverrideVal.toUpperCase().trim() == 'NA')){
+		siteOverrideValueProp5='';
+	}else if((siteSectionOverrideVal.length > 0 && siteSectionOverrideVal.toUpperCase().trim() != 'NA')){
+		siteOverrideValueProp5 = siteSectionOverrideVal.toLowerCase().trim();
+	}else if(siteSectionOverrideVal.length == 0){
+		if(temp_Name == 'genericerrorpage'){
+			siteOverrideValueProp5 = '404_error';
+		}
+		else if(temp_Name == 'nonsupportedpage'){
+			siteOverrideValueProp5 = 'not_supported';
+		}else if((temp_Name == 'rfpformpage') || (temp_Name == 'contactuspage')|| (temp_Name == 'deloitteformstemplate')){
+			siteOverrideValueProp5 = 'forms';
+		}else if((temp_Name == 'searchResultsTemplate') || (temp_Name == 'internalSearchResultsTemplate')){
+			siteOverrideValueProp5 = 'search_results';
+		}else if((temp_Name == 'officedetailspage') || (temp_Name == 'officelocatorpage')|| (temp_Name == 'globalofficedirectorypage')){
+			siteOverrideValueProp5 = 'office_information';
+		}else if(temp_Name == 'companyinformationpage'){
+			siteOverrideValueProp5 = 'legal';
+		}else if(temp_Name == 'moreondeloittepage'){
+			siteOverrideValueProp5 = 'company_information';
+		}else if(temp_Name == 'pressreleasespagetemplate'){
+			siteOverrideValueProp5 = 'press_releases';
+		}else if((temp_Name == 'fulltopicpage') || (temp_Name == 'articlepage')|| (temp_Name == 'solutionpage')|| (temp_Name == 'eventpage')|| (temp_Name == 'careerpage')){
+			siteOverrideValueProp5 ='technology';
+		}else if(temp_Name == "memberfirmhomepage" || temp_Name == "globalhomepage") {
+			siteOverrideValueProp5 = 'home';
+		}else if(temp_Name == "thankyoupage") {
+			siteOverrideValueProp5 = 'thank_you';
+		}else if(temp_Name == "dynamiclisttemplate") {
+			siteOverrideValueProp5 = 'dynamiclist';
+		}else if(temp_Name == "htmlfragmentpage") {
+			siteOverrideValueProp5 = 'landingpage';
+		}else if(temp_Name == "blog-collection-template") {
+            siteOverrideValueProp5 = 'blog_collection';
+        }else if(temp_Name == "blog-post-template") {
+            siteOverrideValueProp5 = 'blog-post';
+		}
+	}
+
+	if(temp_Name == "memberfirmhomepage" || temp_Name == "globalhomepage") {
+		 sc_channel = 'Homepage';
+	} else if(temp_Name == "thankyoupage") {
+	   sc_channel = 'Thankyou';
+	}
+	sc_secondLevelForProp5 = siteOverrideValueProp5;
+	searchLocation = '//www2.deloitte.com/pl/pl/misc/search.html';
+
+	try{
+		if(sessionStorage.getItem("gigyaIdInSession")!=null){
+			sc_gigyaId=sessionStorage.getItem("gigyaIdInSession");
+   		 }
+	}
+	catch(err){console.log(err);}
+
+</script>
+
+
+
+    </meta>
+    </meta>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        /*For checking external link in external dynamic promos*/
+        function checkExternalLink (url) {
+            var path = url.split("|");
+            if(path[1] != undefined){
+                url = path[path.length-1];
+            }
+            return url;
+        }
+    </script>
+    <script type="text/javascript">
+        var ccm_enabled
+	    var isTMP = false;
+	    var siteDomain = "";
+	    if(isTMP) {
+	    	siteDomain = domain;
+	    	if(siteDomain != "") {
+	    		siteDomain=domain.slice(0,-1);
+	         if(siteDomain.indexOf(":")+1){
+	        	 siteDomain=siteDomain.substr(siteDomain.indexOf(":")+1);
+	         }
+	       }
+	    }
+    </script>
+
+
+     <script>
+        var base = document.createElement('base');
+        base.href = window.location.href;
+        document.getElementsByTagName('head')[0].appendChild(base);
+    </script>
+
+
+
+    	<script type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/dcom/dcom-main.min.c13e55e4e911fb143162675378811be8.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js"></script>
+<script type="text/javascript" src="/etc.clientlibs/clientlibs/granite/jquery/granite.min.543d214c88dfa6f4a3233b630c82d875.js"></script>
+<script type="text/javascript" src="/etc.clientlibs/foundation/clientlibs/jquery.min.dd9b395c741ce2784096e26619e14910.js"></script>
+<script type="text/javascript" src="/etc.clientlibs/foundation/clientlibs/shared.min.9f3716b2c473fd53ab31b1caa53131a8.js"></script>
+<script type="text/javascript" src="/etc/designs/dcom/dcom-main.min.bfd2cc97aec88300d8ac460067450cfd.js"></script>
+
+
+
+
+
+    <script type="text/javascript">
+        var memberFirmSNPURL = 'http://sp1004f636.guided.ss-omtrdc.net/';
+
+        /* if current request is https (secure), then hitting the secure S&P interface by replacing http with https  */
+            if(document.URL.indexOf('https') > -1) {
+                memberFirmSNPURL = memberFirmSNPURL.replace("http://", "https://");
+            }
+        var currentPageTitle ='Zwinne organizacje Blog o Agile | Deloitte Polska';
+        var homePageExclusionList = '29e3d83b 7fb791ff a1d8533 d33d4725';
+		var contentPromosExclusionList = '29e3d83b 7fb791ff a1d8533 d33d4725';
+        var pageProtocol="https:";
+    </script>
+
+
+
+
+
+<script type="text/javascript">
+    var wcmMode = 'DISABLED';
+    var emptyPromoMessage = 'There is currently no CCD data available to display in this promo';
+    var showHideSimilarTopics = 'activate';
+    var topicPageExclusionList = '29e3d83b ccd26bc0 e08a1eeb 237af39b 22c389c8 e2be91e 72e82cf9 caab8f97 648b7b84 8bac81d5 2e872497 8bac81d5 dc8c93dd b881b123 fff831e3 fff831e3 b881b123 a90fe00b 434b38de 80fb8495 216098fa 434b38de 80fb8495 dc1ec58 e89f13e1 1cd4cd9a 88a1b57c c017eeb9 15560614 dc1ec58 e89f13e1 15560614 dc1ec58 e89f13e1 b59e3545 b59e3545 334db1d5 3c1ce2d5 6049f92b 6049f92b 649689ef df7c5c1f 2436e7a9 d09d83cc 56abc5a1 c5732faa 56abc5a1 d09d83cc d09d83cc 56abc5a1 6049f92b 2436e7a9 1771c9d2 57608e8b 1771c9d2 57608e8b ec9b1400 ae5b0af3 735eca02 244511fe abcdf31d f0761e1a f6a7007d 6fff1187 1c9f6c4d f6a7007d 493eb597 c830b366 91f4db05 f7fb9d82 f6d5b70 709903f 929760c6 b7d15dac 320375f0 9da10737 f097e679 1378bf25 e3be5716 48344c2d 6292ab57 8207367f 9f77e5a5 16fff1d6';
+    var topicPageCuratedPromosTags = '\x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22agile_pl;pl\x22 \x22agile_pl;pl\x22 \x22agile_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22agile_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22konsulting_pl;pl\x22 \x22technologia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologie_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22strategia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22konsulting_pl;pl\x22 \x22technologia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22konsulting_pl;pl\x22 \x22technologia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22covid\u002D19_pl;pl\x22 \x22kapital\u002Dludzki_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22technologia_pl;pl\x22 \x22covid\u002D19_pl;pl\x22 \x22kapital\u002Dludzki_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22techinsights_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22digital\u002Dtransformation_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22agile_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22 \x22technologia_pl;pl\x22 \x22strategia_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22kapital\u002Dludzki_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22strategia_pl;pl\x22 \x22technologia_pl;pl\x22 \x22kapital\u002Dludzki_pl;pl\x22 \x22deloitte\u002Ddigital_pl;pl\x22 \x22innowacje_pl;pl\x22 \x22technologia_pl;pl\x22 \x22chief\u002Dinformation\u002Dofficer\u002Dcio_pl;pl\x22 \x22agile_pl;pl\x22';
+    var currentPageHashValue = '29e3d83b';
+    var templateType = 'extendedtopicpage';
+
+    var topicpage_careersComponentArray = [];
+    var topicpage_employeeComponentArray = [];
+    var topicpage_eventComponentArray = [];
+    var topicpage_featuredComponentArray = [];
+    var topicpage_standardComponentArray = [];
+    var topicpage_solutionsComponentArray = [];
+
+    var scPromoIDs = "";
+
+    var maxLengthArray = 5;
+    var tagsString = "";
+
+    var tagValuesString = "";
+    var curatedPromosCount = 0;
+
+    function registerCuratedPromos(hashValue, type) {
+        if(scPromoIDs == ""){
+            scPromoIDs = hashValue;
+        }else{
+            scPromoIDs += "," + hashValue;
+        }
+        curatedPromosCount++;
+    }
+
+    function registerPromos(divID, promoType) {
+        if(promoType == 'career') {
+            topicpage_careersComponentArray.push(divID);
+        } else if(promoType == 'profiles') {
+            topicpage_employeeComponentArray.push(divID);
+        } else if(promoType == 'events') {
+            topicpage_eventComponentArray.push(divID);
+        } else if(promoType == 'featured') {
+            topicpage_featuredComponentArray.push(divID);
+        } else if(promoType == 'standard') {
+            topicpage_standardComponentArray.push(divID);
+        } else if(promoType == 'solutions') {
+            topicpage_solutionsComponentArray.push(divID);
+        }
+    }
+</script>
+
+
+
+
+
+
+
+        <script>
+		   if (typeof(pageProtocol)!=="undefined" && pageProtocol!="mixed" && "www2.deloitte.com"===window.location.hostname && window.location.protocol != pageProtocol){
+                window.location.href=pageProtocol + window.location.href.substring(window.location.protocol.length);
+            }
+		</script>
+
+
+
+
+
+
+
+
+    <script>!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("%7B%0A%09%22RT%22%3A%20%7B%0A%09%09%22cookie%22%3A%20%22%22%0A%09%7D%0A%7D");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();</script>
+                          <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9JTXD-CNBZB-FG7SF-PEEED-N9JSF",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"9JTXD-CNBZB-FG7SF-PEEED-N9JSF",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="lfaa26dikhpcsydk4dqa-f-65d4ad2f4-clientnsv4-s.akamaihd.net",i={"ak.v":"31","ak.cp":"246442","ak.ai":parseInt("147953",10),"ak.ol":"0","ak.cr":25,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"376644de","ak.r":32304,"ak.a2":e,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"89.64.13.0","ak.cport":10345,"ak.gh":"104.94.100.55","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1617617120","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==IWwq68KFFY+hsHSeo0uRFzvMfecwm565Vgi15Gf3m36cVTLjfWhp/EFMN1DBAVNL2FTOW+a/iKPgpzZKy57a+V466gFcCyo2XD7GAlGwTmvCEjpezsoAV9aOHzW8jUenBZZUIKdlQRfoM9BBP+9ZoIBp+UWR24UOvOvvCjwdG+kugQFBX+WlHahvC07vkgt9/A2c0q+DdbUaJeCzEb8sBfoWat3EgsJRuQMM8+hv02OC4L6se/b1DZIT5CEKGbrATdO0s2QHR+QhVLN6Txvjkj4DoPOh0/NZNrWhrzD5HwTMXrnYjXK7Fg+h5ObTvQbLTpWC1G8bsCbcsFeJ4886diFXJzJgIvqr44SG7xoGlyZHM1y7jYXYVJes7yvXIrT1nFShfSDhrN6Zn9ekrZah+GeWhKPiOu5ItTZvWegp8C8=","ak.pv":"650","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var _={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!_.i){var a=BOOMR.subscribe;a("before_beacon",_.av,null,null),a("onbeacon",_.rv,null,null),_.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+
+          <body class="ccm-enabled" ng-app="appModule" ng-controller="appController">
+
+
+
+<noscript>
+	<div style="background: #fbfbfb; color: red; border: 1px solid #DCDCDC; width: 95%; margin: 20px auto; padding: 20px; text-align: center; font-size: 16px; font-weight: 300; font-family: 'Open Sans', sans-serif;">
+		Javascript jest wyłączony
+	</div>
+</noscript>
+
+
+
+
+
+<script>
+    var dataLayer= {};
+    var custom_data_1 = '';
+    var custom_data_2 = '';
+    var memberFirmAccountID = 'sp1004f636';
+    var searchAllSitesAccountID = 'sp10050774';
+    if(custom_data_1.length > 0){
+    	custom_data_1 =sc_country + ';' + sc_language +'_'+ (custom_data_1.toLowerCase()).replace(/ /g,"_");
+    }
+    if(custom_data_2.length > 0){
+    	custom_data_2 =sc_country + ';' + sc_language +'_'+ (custom_data_2.toLowerCase()).replace(/ /g,"_");
+    }
+
+    function getCookie(name)
+    {
+        var dc = document.cookie;
+        var prefix = name + "=";
+        var begin = dc.indexOf("; " + prefix);
+        if (begin == -1) {
+            begin = dc.indexOf(prefix);
+            if (begin != 0) return null;
+        }
+        else
+        {
+            begin += 2;
+            var end = document.cookie.indexOf(";", begin);
+            if (end == -1) {
+                end = dc.length;
+            }
+        }
+        return unescape(dc.substring(begin + prefix.length, end));
+    }
+
+
+	var promoIds_attributes='';
+	var tagNames_attributes='';
+	var promoIds_disc_more='';
+	var tagNames_disc_more='';
+	var promoIds_next_steps='';
+	var promoIds_trending='';
+</script>
+
+
+<div id="gigya-container" style="display: none;">
+
+</div>
+
+
+
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/launch-EN19f66e78030b4550b8aebe191224f207.min.js" async></script>
+
+
+<div>
+
+
+
+
+
+
+
+<!-- This DOM is required for Edit mode only for showing Privancy message on Deloitte Simple Forms template starts-->
+
+<!-- This DOM is required for Edit mode only for showing Privancy message on Deloitte Simple Forms template ends-->
+<!-- US:526962 : adding offline banner component here-->
+
+
+<!-- adding DOM for offline or online mode US:526962 -->
+   <div id="offline_display_message" class="offline-alert-wrapper" style="display: none;">
+    <!-- TODO: add cloud offline icon here -->
+      <span class="deloitte-icon icon-cloud-check"></span>
+ <div class="container-space">
+   <h5 class="heading-style">
+
+   </h5>
+    <p class="msg-subtitle">
+
+    </p>
+ </div>
+ <div class="close-btn" onclick="closeOfflineBanner()">
+
+ </div>
+</div>
+<header class="cmp-header" id="header" role="banner">
+   <div class="cmp-header-container cmp-container-width">
+
+      <!-- hamburger button for mobile nav -->
+      <button class="cmp-header__nav-icon" id="header__nav-icon" type="button" aria-label="Menu" aria-expanded="false">
+      <i class="icon-navicon"></i>
+      </button>
+
+      <!-- Placeholder for Deloitte logo -->
+
+            <div class="cmp-header__logo" id="header__logo">
+               <a href="/pl/pl.html" title='Deloitte Polska'>
+               		<img src="/content/dam/assets/logos/deloitte.svg" alt='Deloitte Polska' width="182" height="34"/>
+               		<img class="cmp-header__logo--print" src="/content/dam/assets/logos/deloitte-print.png" alt="" width="182" height="34"/>
+               </a>
+            </div>
+
+
+      <!-- Annotations DOM -->
+      <div class="annotations">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+      <!-- Annotations DOM ends-->
+
+      <!-- Placeholder for primary navigation for desktop-->
+      <div id="pr-nav" class="cmp-pr-nav">
+         <nav role="navigation">
+               <ul role="menubar">
+
+
+   <li aria-haspopup="true" role="menuitem" class="cmp-pr-nav__item" id="list1">
+      <a href="#" data-sub="Usługi" class="cmp-pr-nav__item__link" aria-haspopup="true" role="menuitem" aria-expanded="false">Usługi<i class="icon-chevron"></i>
+      </a>
+      <!--Mega menu starts -->
+      <div class="cmp-pr-nav__menu" aria-expanded="false" aria-labelledby="list1">
+         <div class="cmp-container-width aem-Grid aem-Grid--12">
+            <div class="cmp-pr-nav__menu__Whats-new-section aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
+
+
+
+
+
+
+
+               <h4>Nowości</h4>
+               <ul>
+
+                     <li>
+                        <a href="/pl/pl/pages/rady-nadzorcze/topics/rady-nadzorcze.html?icid=wn_rady-nadzorcze" target="_self">
+                           <strong>Rady nadzorcze</strong>
+                           <p>Wyzwania, regulacje i dobre praktyki nadzoru korporacyjnego</p>
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="/pl/pl/pages/kobiety-w-biznesie/topics/kobiety-w-biznesie.html?icid=wn_kobiety-w-biznesie" target="_blank">
+                           <strong>Kobiety w biznesie</strong>
+                           <p>Wyrównywanie szans obu płci w dostępie do rozwoju zawodowego, awansów i wynagrodzeń</p>
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="/pl/pl/pages/rozwiazania-dla-cfo/topic/cfo-dyrektor-finansowy.html?icid=wn_cfo-dyrektor-finansowy" target="_self">
+                           <strong>Strategie CFO</strong>
+                           <p>Trendy i innowacje w zarządzaniu wynikami firmy</p>
+                        </a>
+                     </li>
+
+               </ul>
+            </div>
+            <div class="cmp-pr-nav__menu__links-wrapper aem-GridColumn aem-GridColumn--default--9 aem-GridColumn--phone--12">
+               <!-- subnav items starts -->
+
+                  <ul class="cmp-pr-nav__menu__links-section aem-Grid aem-Grid--12">
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/services/audit.html?icid=top_audit" target="_self">Audit &amp; Assurance</a></h4>
+
+                              <ul>
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/pages/audit/solutions/audyt-advisory.html?icid=top_audyt-advisory" target="_self">
+                                             Audit Advisory</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/audit/badanie-sprawozdan-finansowych.html?icid=top_badanie-sprawozdan-finansowych" target="_self">
+                                             Badanie sprawozdań finansowych</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/audit/mssf.html?icid=top_mssf" target="_self">
+                                             MSSF</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/audit/ipo.html?icid=top_ipo" target="_self">
+                                             Oferta publiczna akcji (IPO)</a>
+                                          </li>
+
+
+
+                              </ul>
+
+                        </li>
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/services/consulting.html?icid=top_consulting" target="_self">Consulting</a></h4>
+
+                              <ul>
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/consulting/strategy-and-analytics.html?icid=top_strategy-and-analytics" target="_self">
+                                             Strategy, Analytics, M&amp;A</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/consulting/customer-and-marketing.html?icid=top_customer-and-marketing" target="_self">
+                                             Customer and marketing</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/consulting/core-business-operations.html?icid=top_core-business-operations" target="_self">
+                                             Core Business Operations</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/consulting/human-capital.html?icid=top_human-capital" target="_self">
+                                             Human Capital</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/services/consulting/technology.html?icid=top_technology" target="_self">
+                                             Enterprise Technology &amp; Performance</a>
+                                          </li>
+
+
+
+                              </ul>
+
+                        </li>
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/services/doradztwo-finansowe.html?icid=top_doradztwo-finansowe" target="_self">Doradztwo finansowe</a></h4>
+
+                        </li>
+
+
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/services/doradztwo-prawne.html?icid=top_doradztwo-prawne" target="_self">Doradztwo prawne</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/doradztwo-prawne/solutions/legal-advisory-services.html?icid=top_legal-advisory-services" target="_self">
+                                                Legal Advisory Services</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/doradztwo-prawne/solutions/legal-managed-services.html?icid=top_legal-managed-services" target="_self">
+                                                Legal Managed Services</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/doradztwo-prawne/solutions/legal-management-consulting-lmc.html?icid=top_legal-management-consulting-lmc" target="_self">
+                                                Legal Management Consulting</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/pages/risk/topics/risk-advisory.html?icid=top_risk-advisory" target="_self">Zarządzanie ryzykiem</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/risk/topics/ryzko-strategiczne-reputacyjne.html?icid=top_ryzko-strategiczne-reputacyjne" target="_self">
+                                                Ryzyko strategiczne i reputacyjne</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/risk/topics/ryzyko-regulacyjne.html?icid=top_ryzyko-regulacyjne" target="_self">
+                                                Ryzyko regulacyjne</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/risk/topics/ryzyko-finansowe.html?icid=top_ryzyko-finansowe" target="_self">
+                                                Ryzyko finansowe</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/risk/topics/ryzyko-operacyjne.html?icid=top_ryzyko-operacyjne" target="_self">
+                                                Ryzyko operacyjne</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/risk/topics/cyberbezpieczenstwo.html?icid=top_cyberbezpieczenstwo" target="_self">
+                                                Cyberbezpieczeństwo</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/services/Podatki.html?icid=top_Podatki" target="_self">Doradztwo podatkowe</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/tax/topics/Podatek-u-zrodla-WHT.html?icid=top_Podatek-u-zrodla-WHT" target="_self">
+                                                Podatek u źródła</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/tax/topics/jednolity-plik-konktrolny.html?icid=top_jednolity-plik-konktrolny" target="_self">
+                                                Jednolity plik kontrolny</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/tax/topics/split-payment.html?icid=top_split-payment" target="_self">
+                                                Split payment</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/tax/topics/ATAD2.html?icid=top_ATAD2" target="_self">
+                                                ATAD 2</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/tax/topics/orzecznictwo.html?icid=top_orzecznictwo" target="_self">
+                                                Orzecznictwo</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/tax/topics/kasy-fiskalne.html?icid=top_kasy-fiskalne" target="_self">
+                                                Kasy fiskalne</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+
+
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/services/deloitte-digital.html?icid=top_deloitte-digital" target="_self">Deloitte Digital</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/deloitte-digital/Topics/digital-transformation.html?icid=top_digital-transformation" target="_self">
+                                                Digital Transformation</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/pages/deloitte-digital/Topics/Biuro-Prasowe-Deloitte-Digital.html?icid=top_Biuro-Prasowe-Deloitte-Digital" target="_self">
+                                                Biuro prasowe Deloitte Digital</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/services/Forensics.html?icid=top_Forensics" target="_self">Forensic, AML i compliance</a></h4>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a></a></h4>
+
+                           </li>
+
+
+                  </ul>
+                  <div class="cmp-pr-nav__menu__close">
+                     <a href="" aria-label="Close" class="icon-remove"></a>
+                  </div>
+
+            </div>
+         </div>
+      </div>
+   </li>
+
+   <li aria-haspopup="true" role="menuitem" class="cmp-pr-nav__item" id="list2">
+      <a href="#" data-sub="Specjalizacje branżowe" class="cmp-pr-nav__item__link" aria-haspopup="true" role="menuitem" aria-expanded="false">Specjalizacje branżowe<i class="icon-chevron"></i>
+      </a>
+      <!--Mega menu starts -->
+      <div class="cmp-pr-nav__menu" aria-expanded="false" aria-labelledby="list2">
+         <div class="cmp-container-width aem-Grid aem-Grid--12">
+            <div class="cmp-pr-nav__menu__Whats-new-section aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
+
+
+
+
+
+               <h4>Nowości</h4>
+               <ul>
+
+                     <li>
+                        <a href="/pl/pl/pages/country-desks/topics/german-desk.html?icid=wn_german-desk" target="_self">
+                           <strong>German Desk</strong>
+                           <p>Zespół ekspertów specjalizujących się w kompleksowej obsłudze niemieckich, austriackich i szwajcarskich firm działających na rynku polskim oraz w krajach Europy Środkowej.</p>
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="/pl/pl/pages/firmy-rodzinne/topics/firmy-rodzinne.html?icid=wn_firmy-rodzinne" target="_blank">
+                           <strong>Firmy rodzinne</strong>
+                           <p></p>
+                        </a>
+                     </li>
+
+               </ul>
+            </div>
+            <div class="cmp-pr-nav__menu__links-wrapper aem-GridColumn aem-GridColumn--default--9 aem-GridColumn--phone--12">
+               <!-- subnav items starts -->
+
+                  <ul class="cmp-pr-nav__menu__links-section aem-Grid aem-Grid--12">
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/industries/public-sector.html?icid=top_public-sector" target="_self">Administracja i Sektor Publiczny</a></h4>
+
+                              <ul>
+
+
+
+
+                                          <li>
+                                             <a href="/global/en/pages/public-sector/topics/civil-government.html?icid=top_civil-government" target="_self">
+                                             Administracja publiczna</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/public-sector/przemysl-obronny-i-lotniczy.html?icid=top_przemysl-obronny-i-lotniczy" target="_self">
+                                             Obrona, bezpieczeństwo i sprawiedliwość</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/global/en/pages/public-sector/topics/international-donor-orgs.html?icid=top_international-donor-orgs" target="_self">
+                                             Organizacje międzynarodowe (donor organizations)</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/global/en/pages/public-sector/topics/transport.html?icid=top_transport" target="_self">
+                                             Transport</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/global/en/pages/public-sector/topics/health-and-social-care.html?icid=top_health-and-social-care" target="_self">
+                                             Zdrowie i opieka społeczna</a>
+                                          </li>
+
+
+
+                              </ul>
+
+                        </li>
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/industries/dobra-konsumenckie.html?icid=top_dobra-konsumenckie" target="_self">Dobra konsumenckie</a></h4>
+
+                              <ul>
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/dobra-konsumenckie/handel-detaliczny-hurt-dystrybucja.html?icid=top_handel-detaliczny-hurt-dystrybucja" target="_self">
+                                             Handel detaliczny, hurt i dystrybucja</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/dobra-konsumenckie/motoryzacja.html?icid=top_motoryzacja" target="_self">
+                                             Motoryzacja</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/dobra-konsumenckie/Produkty-konsumenckie-FMCG.html?icid=top_Produkty-konsumenckie-FMCG" target="_self">
+                                             Produkty konsumenckie</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/dobra-konsumenckie/sport.html?icid=top_sport" target="_self">
+                                             Sport</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/dobra-konsumenckie/hotelarstwo-rekreacja-i-transport.html?icid=top_hotelarstwo-rekreacja-i-transport" target="_self">
+                                             Transport, hotelarstwo i usługi gastronomiczne</a>
+                                          </li>
+
+
+
+                              </ul>
+
+                        </li>
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/industries/energetyka.html?icid=top_energetyka" target="_self">Energetyka, Surowce i Przemysł</a></h4>
+
+                              <ul>
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/energetyka/energetyka-i-uslugi-komunalne.html?icid=top_energetyka-i-uslugi-komunalne" target="_self">
+                                             Energetyka i usługi komunalne</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/global/en/pages/energy-and-resources/topics/mining.html?icid=top_" target="_blank">
+                                             Górnictwo i metale</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/global/en/pages/energy-and-resources/topics/industrial-products-construction.html?icid=top_industrial-products-construction" target="_self">
+                                             Produkty przemysłowe i konstrukcje</a>
+                                          </li>
+
+
+
+
+
+
+                                          <li>
+                                             <a href="/pl/pl/industries/energetyka/ropa-gaz-chemia.html?icid=top_ropa-gaz-chemia" target="_self">
+                                             Ropa, Gaz i Chemia</a>
+                                          </li>
+
+
+
+                              </ul>
+
+                        </li>
+
+
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/industries/medycyna-i-ochrona-zdrowia.html?icid=top_medycyna-i-ochrona-zdrowia" target="_self">Life Sciences i ochrona zdrowia</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/medycyna-i-ochrona-zdrowia/life-sciences.html?icid=top_life-sciences" target="_self">
+                                                Life Sciences</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/medycyna-i-ochrona-zdrowia/ochrona-zdrowia.html?icid=top_ochrona-zdrowia" target="_self">
+                                                Ochrona zdrowia</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/industries/financial-services.html?icid=top_financial-services" target="_self">Sektor finansowy</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/financial-services/bankowosc-i-rynki-kapitalowe.html?icid=top_bankowosc-i-rynki-kapitalowe" target="_self">
+                                                Bankowość i rynki kapitałowe</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/financial-services/inwestycje.html?icid=top_inwestycje" target="_self">
+                                                Inwestycje</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/financial-services/nieruchomosci.html?icid=top_nieruchomosci" target="_self">
+                                                Nieruchomości</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/financial-services/ubezpieczenia.html?icid=top_ubezpieczenia" target="_self">
+                                                Ubezpieczenia</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="/pl/pl/industries/technology-media-and-telecommunications.html?icid=top_technology-media-and-telecommunications" target="_self">Technologie, media i telekomunikacja</a></h4>
+
+                                 <ul>
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/technology-media-and-telecommunications/technologia.html?icid=top_technologia" target="_self">
+                                                Technologie</a>
+                                             </li>
+
+
+
+
+
+
+                                             <li>
+                                                <a href="/pl/pl/industries/technology-media-and-telecommunications/telekomunikacja-media-rozrywka.html?icid=top_telekomunikacja-media-rozrywka" target="_self">
+                                                Telekomunikacja, media i rozrywka</a>
+                                             </li>
+
+
+
+                                 </ul>
+
+                           </li>
+
+
+
+                  </ul>
+                  <div class="cmp-pr-nav__menu__close">
+                     <a href="" aria-label="Close" class="icon-remove"></a>
+                  </div>
+
+            </div>
+         </div>
+      </div>
+   </li>
+
+   <li aria-haspopup="true" role="menuitem" class="cmp-pr-nav__item" id="list3">
+      <a href="#" data-sub="Kariera" class="cmp-pr-nav__item__link" aria-haspopup="true" role="menuitem" aria-expanded="false">Kariera<i class="icon-chevron"></i>
+      </a>
+      <!--Mega menu starts -->
+      <div class="cmp-pr-nav__menu" aria-expanded="false" aria-labelledby="list3">
+         <div class="cmp-container-width aem-Grid aem-Grid--12">
+            <div class="cmp-pr-nav__menu__Whats-new-section aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
+
+               <h4>Nowości</h4>
+               <ul>
+
+               </ul>
+            </div>
+            <div class="cmp-pr-nav__menu__links-wrapper aem-GridColumn aem-GridColumn--default--9 aem-GridColumn--phone--12">
+               <!-- subnav items starts -->
+
+                  <ul class="cmp-pr-nav__menu__links-section aem-Grid aem-Grid--12">
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/careers/studenci.html?icid=top_studenci" target="_self">Studenci i Absolwenci</a></h4>
+
+                        </li>
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="/pl/pl/careers/specjalisci.html?icid=top_specjalisci" target="_self">Specjaliści</a></h4>
+
+                        </li>
+
+                        <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12 navigation-column">
+                           <h4><a href="https://pl.career.deloittece.com/home?icid=top_" target="_blank">Wyszukiwarka ofert pracy i praktyk</a></h4>
+
+                        </li>
+
+
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="https://www2.deloitte.com/pl/alumni?icid=top_" target="_blank">Alumni</a></h4>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a href="https://ssl.deloitte.pl/kariera/wydarzenia?icid=top_" target="_blank">Wydarzenia rekrutacyjne</a></h4>
+
+                           </li>
+
+                           <li class="cmp-pr-nav__menu__item aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                              <h4><a></a></h4>
+
+                           </li>
+
+
+
+                  </ul>
+                  <div class="cmp-pr-nav__menu__close">
+                     <a href="" aria-label="Close" class="icon-remove"></a>
+                  </div>
+
+            </div>
+         </div>
+      </div>
+   </li>
+
+   				  <li class="cmp-pr-nav__site-selector cmp-pr-nav__item" role="menuitem">
+
+
+<a href="javascript:void(0)" class="cmp-header__ut-nav__site-sel__link location-link" data-toggle="siteSelector" aria-expanded="false" role="button">
+    <span class="desk-countrySelector">PL-PL</span>
+    <span class="mobile-location">Lokalizacja:</span>
+    <span class="mobile-countrySelector">Poland-Polish</span>
+    &nbsp;
+    <i class="icon-chevron"></i>
+</a>
+                  </li>
+
+                      <li class="cmp-pr-nav__contactus-link cmp-pr-nav__item">
+                          <a href="/pl/pl/footerlinks/contact-us.html" aria-label="contact us" class="cmp-pr-nav__item__link" title='Contact us' aria-expanded="false">
+                          <i class="icon-phone-o"></i>
+                          <span class="mobile-contactUs">Skontaktuj się z nami</span>
+                          </a>
+                       </li>
+
+               </ul>
+            </nav>
+         <div class="menu-overlay"></div>
+      </div>
+      <!-- Placeholder for Search box, Site selector and other links-->
+      <div class="cmp-header__ut-wrapper">
+
+         <!-- interanl search -->
+           <div class="cmp-search" id="internal-search">
+            <div class="aem-Grid aem-Grid--12">
+               <div class="aem-GridColumn aem-GridColumn--phone--1 cmp-header__mobile--close">
+               <button class="cmp-search__remove-icon" type="button" aria-label="Close" aria-expanded="false"> <i class="icon-remove"></i> </button>
+               </div>
+               <div class="aem-GridColumn aem-GridColumn--phone--11 cmp-header__mobile--searchinput">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var searchOverrides = '{additionalsitestoindex=, indexOverride=, autocorrectType=, facets=[{"anchor":"Profile osób","label_with_op":"INDEXING_PROFILES"},{"anchor":"Wydarzenia","label_with_op":"INDEXING_EVENTS|INDEXING_EVENT_DETAILS|INDEXING_EVENTS_LISTING"},{"anchor":"Artykuły","label_with_op":"INDEXING_ARTICLES"},{"anchor":"Tematy","label_with_op":"INDEXING_TOPICS"},{"anchor":"Rozwiązania","label_with_op":"INDEXING_SOLUTIONS"}]}';
+</script>
+
+<div class="cmp-search__form">
+    <ds-search-bar></ds-search-bar>
+
+    	<ds-search hidden></ds-search>
+
+</div>
+
+
+
+
+
+               </div>
+            </div>
+			</div>
+          <ul id="header__ut-nav" class="cmp-header__ut-nav">
+            <li id="header__ut-nav__search-icon" class="cmp-header__ut-nav__search-icon">
+               <button class="" type="button" aria-label='Szukaj'>
+               <i class="icon-search"></i>
+               </button>
+            </li>
+            <li id="header__ut-nav__site-sel" class="cmp-header__ut-nav__site-sel">
+               <!-- site selector component-->
+
+
+<a href="javascript:void(0)" class="cmp-header__ut-nav__site-sel__link location-link" data-toggle="siteSelector" aria-expanded="false" role="button">
+    <span class="desk-countrySelector">PL-PL</span>
+    <span class="mobile-location">Lokalizacja:</span>
+    <span class="mobile-countrySelector">Poland-Polish</span>
+    &nbsp;
+    <i class="icon-chevron"></i>
+</a>
+            </li>
+
+				<li id="header__ut-nav__cts-link" class="cmp-header__ut-nav__cts-link">
+                   <a href="/pl/pl/footerlinks/contact-us.html" title='Contact us' aria-label='Contact us'>
+                   <i class="icon-phone-o"></i>
+                   <span class="cmp-header__ut-nav__cts-link__text">Skontaktuj się z nami</span>
+                   </a>
+                </li>
+
+
+			<!-- When Gigya is enabled DOM starts for Register Links starts-->
+
+            <!-- When Gigya is enabled DOM starts for Register Links -->
+
+         </ul>
+      </div>
+   </div>
+
+   <!-- DOM added for Breadcrumb Language toggle component starts-->
+
+
+
+			 <div class="breadcrumb-section-bar" id="breadcrumb-bar">
+				<div class="breadcrumb-container">
+				   <div class="languageselector">
+<ul class="language-display">
+
+				<li>
+
+						<a href="#" class="active">
+
+
+					Polish
+					</a>
+
+						&nbsp;|&nbsp;
+
+				</li>
+
+				<li>
+
+
+						<a class="langLink" href="/pl/en.html">
+
+					English
+					</a>
+
+				</li>
+
+	</ul></div>
+				</div>
+			 </div>
+
+
+
+   <!-- DOM added for Breadcrumb Language toggle component ends-->
+
+
+   <!-- Variables used for elastic search purpose starts-->
+   <script>
+	var meta_engine= 'https://e44dfae36b9d42e4b3c1af5464bc42e0.ent-search.northeurope.azure.elastic-cloud.com/api/as/v1/engines/prod-all-content';
+	var search_engine= 'https://e44dfae36b9d42e4b3c1af5464bc42e0.ent-search.northeurope.azure.elastic-cloud.com/api/as/v1/engines/prod-polish';
+	var search_key= 'search-7d29t4baf6qrobjadv5t2p7v';
+	var searchFacets = "[{&quot;anchor&quot;:&quot;Profile osób&quot;,&quot;label_with_op&quot;:&quot;INDEXING_PROFILES&quot;},{&quot;anchor&quot;:&quot;Wydarzenia&quot;,&quot;label_with_op&quot;:&quot;INDEXING_EVENTS|INDEXING_EVENT_DETAILS|INDEXING_EVENTS_LISTING&quot;},{&quot;anchor&quot;:&quot;Artykuły&quot;,&quot;label_with_op&quot;:&quot;INDEXING_ARTICLES&quot;},{&quot;anchor&quot;:&quot;Tematy&quot;,&quot;label_with_op&quot;:&quot;INDEXING_TOPICS&quot;},{&quot;anchor&quot;:&quot;Rozwiązania&quot;,&quot;label_with_op&quot;:&quot;INDEXING_SOLUTIONS&quot;}]";
+        searchFacets = searchFacets.replace(/&quot;/g, '"');
+    var internalFacets = JSON.parse(searchFacets);
+	var filter_by = "Filtruj wg.";
+	var cse_AllResultsLabel = "Wszystkie wyniki";
+	var results_for = "Wyniki dla";
+	var max_results = "Więcej niż 100 wyników wyszukiwania";
+	var search_placeholder = "Szukaj";
+	var Search_result_term = "";
+	var word_results ="Znalezione wyniki";
+	var word_result ="result found";
+	</script>
+	<!-- Variables used for elastic search purpose ends-->
+
+</header></div>
+
+
+<div id="datalayerdiv">
+	<script type="text/javascript">
+        dataLayer.page={
+            "attributes": {
+                "pageID": "29e3d83b",
+                "pagename": "/pl/pl/pages/technology/topics/blog-agile",
+                "country": "pl",
+                "language": "pl",
+                "urlCountry": "pl",
+                "pageTemplate": "Deloitte_Full_Topic_Page",
+                "secondLevel": "Technology",
+                "siteSection": "blog-agile",
+                "subSection3": "Topics",
+                "documentAge": "5",
+                "dateModified": "",
+                "datePublished": "",
+                "promoIds": "",
+                "tagNames": "",
+                "contentLabel18n": "",
+                "pageTitle": "Zwinne_organizacje_Blog_o_Agile_|_Deloitte_Polska",
+                "simpleFormName": "",
+                "successType": "",
+                "blueprintName": "",
+                "originatorId": "",
+                "headline1": "Zwinne organizacje | Blog o Agile",
+                "headline2": "",
+				"featured": "",
+				"createDate": "31 Mar. 2021",
+				"publishDate": "31 Mar. 2021",
+				"authors": "",
+				"tag1": "",
+				"tag2": "",
+				"fullTopicPrimaryTag": "",
+				"city": "",
+				"state": "",
+				"postalCode": "",
+				"latitude": "",
+				"longitude": "",
+				"address": "",
+				"employeeTitle": "",
+				"tagTopic": "",
+				"thumbnailUrl": "/content/dam/Deloitte/pl/Images/promo_images/pl-blog-agile-promo-700-700.png",
+				"description": "Blog Zwinne Organizacje powstał jako odpowiedź na potrzebę dzielenia się wiedzą, przemyśleniami oraz doświadczeniem ekspertów Deloitte w praktykowaniu filozofii Agile. Promujemy podejście zwinne ponieważ sami wykorzystujemy metody, których wdrożenie doradzamy naszym klientom. Na blogu regularnie będą pojawiać się studia-przypadków, artykuły oraz wywiady obejmujące takie zagadnienia jak Agile, Lean, DevOps oraz Scrum.",
+				"entityName": "",
+				"media": "",
+				"mfCountry":"Poland"
+
+            }
+        };
+        dataLayer.seeMoreSection={
+        	"promoIds": ""
+        };
+		dataLayer.discovermore={
+          "promoIds": "",
+          "tagNames": "",
+          "pageTemplate": ""
+        };
+		dataLayer.nextsteps={
+          "promoIds": "",
+          "pageTemplate": ""
+        };
+		dataLayer.trending={
+          "promoIds": "",
+          "pageTemplate": ""
+        };
+		dataLayer.search={
+          "searchTerm": "",
+          "pageNum": "1",
+          "Facet": "all"
+        };
+		dataLayer.custom={
+          "customConversion1": "",
+          "customConversion2": "",
+          "customConversion3": "",
+          "customConversion4": "",
+          "customConversion5": "",
+          "customConversion6": "",
+          "customConversion7": "",
+          "customTraffic1": "",
+          "customTraffic2": "",
+          "customTraffic3": "",
+          "customTraffic4": "",
+          "customTraffic5": "",
+          "customActions": "",
+          "targetingCodes": ""
+        };
+		dataLayer.profile={
+          "userID": "",
+          "employeeemail": "",
+          "emplyeephone": "",
+          "employeemaplink": "",
+          "employeeprofilename":""
+        };
+		dataLayer.careers={
+            "experienceLevel": "",
+            "jobCountry": "",
+            "jobName": "",
+            "jobRegion": "",
+            "jobSearchKeyWord": "",
+            "jobType": "",
+            "noJobResultPage": "false",
+            "changeSearch": "false"
+		};
+    </script>
+</div>
+
+<div class="wrapper topic-page">
+
+
+		<div class="topicpagebanner" id="full-topic__page-banner">
+
+
+
+
+<div class="extended-background black">
+	<div class="topicpagebanner lite">
+
+
+
+				<div class="topic-introduction wrapper " style="top: 96px; background-image: url(/content/dam/Deloitte/pl/Images/header_images/pl_agile_blog_4x1.jpg)">
+					<div id="topic-description" class="topic-description">
+						<div class="topic-description-content">
+						<h1 class="primary-headline">Zwinne organizacje | Blog o Agile</h1>
+
+						<p class="body-copy">Symboliczny Manifest Agile rozpoczyna się od stwierdzenia: &#34;Odkrywamy nowe metody programowania dzięki praktyce w programowaniu i wspieraniu w nim innych&#34;. </p>
+
+
+							</div>
+					</div>
+				</div>
+
+
+    </div>
+ </div>
+
+</div>
+
+
+		<div class="extended-background">
+			<div class="tier">
+				<div class="col-100">
+
+				</div>
+			</div>
+		</div>
+
+		<div class="main-container topic-page-content">
+			<div id="topic-page-mobile-tabs" style="display: none; touch-action: pan-y; -webkit-user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <div class="tabHeader">
+                        <ul class="tabbedMenu">
+                            <li class="tab" data-tab="tab-all"><a class="label">Wszystko</a></li>
+							<li class="tab" data-tab="tab-solutions"><a class="label">Rozwiązania</a></li>
+							<li class="tab" data-tab="tab-profiles"><a class="label">Nasi ludzie</a></li>
+                        </ul>
+                    </div>
+            </div>
+			<div class="">
+				<div class="tier">
+                    <div class="col-70 tab-all fade-load" style="display: none;">
+						<div class="table-frame layout-ctrl" id="featured-more-topic">
+							<div class="table-frame-row">
+								<div class="table-frame-col-100 featured">
+									<div class="autowidthcolumnctrl dcom-feature-more-row-4" id="row4">
+	<div class="layoutcolumnctrl section">
+
+
+
+
+
+
+		<div class="auto-width-column">
+			<div class="awc-one-hundred">
+				<div>
+	<div class="htmlfragment section">
+<!--  Classic UI author placeholder, this is required -->
+
+
+
+
+<div>
+   <div class="standard-white-component ">
+      <h3 class="secondary-headline"> </h3>
+      <p>Blog Zwinne Organizacje powstał jako odpowiedź na potrzebę dzielenia się wiedzą, przemyśleniami oraz doświadczeniem ekspertów Deloitte w praktykowaniu filozofii Agile. Promujemy podejście zwinne ponieważ sami wykorzystujemy metody, których wdrożenie doradzamy naszym klientom. Na blogu regularnie będą pojawiać się studia-przypadków, artykuły oraz wywiady obejmujące takie zagadnienia jak Agile, Lean, DevOps oraz Scrum.</p>
+      <div class="html-fragment-content">
+
+      </div>
+
+
+   </div>
+</div></div>
+<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/ksztaltowanie-kultury-wspierajacej-organizacyjna-zwinnosc.html" target="_self" data-cq-id="ccd26bc0" data-promoname="Kształtowanie kultury wspierającej organizacyjną zwinność&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+                            <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_agile-nie-jest-celem-tylko-narzedziem_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_Zarzadzanie_zmiana_podczas_transformacji_agile_4x1.png" data-aspectratio="1:1"/>
+
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Kształtowanie kultury wspierającej organizacyjną zwinność<br />
+
+
+</h2>
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('ccd26bc0', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+		    </div>
+		</div>
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+
+
+		<div class="auto-width-column">
+			<!--  CTA promo-->
+
+
+				<div class="awc-thirtythree-sixtyseven-c0 insight-black ">
+		            <!--  CTA promo Add class  calltoaction -->
+		            <div class="dcomparsys thirtythree-sixtyseven-c0">
+		              <!--  CTA promo-->
+					  <div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/webcasty/articles/dobre-PMO-czyli-jakie.html" target="_self" data-cq-id="e08a1eeb" data-promoname="Webinar: Dobre PMO, czyli jakie? Co zmienić, by dostarczać większą wartość dla organizacji?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-black">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_webcast_cykl_pmo_biuro_zarzadzania_projektami__4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Webinar: Dobre PMO, czyli jakie? Co zmienić, by dostarczać większą wartość dla organizacji?<br />
+
+
+</h2>
+
+								<h3>Cykl webinarów PMO 4.0<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Zarejestruj się
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('e08a1eeb', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+		            </div>
+		         </div>
+
+
+
+				<div class="awc-thirtythree-sixtyseven-c1 insight-black">
+		            <!-- Featured Promo 1:1  Add class  insight-black for black promo -->
+		            <div class="dcomparsys thirtythree-sixtyseven-c1">
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/webcasty/articles/4-elementy-konieczne-w-PMO-skierowanym-na-wartosc.html" target="_self" data-cq-id="237af39b" data-promoname="Webinar: 4 elementy konieczne w PMO skierowanym na wartość&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-black">
+
+						<div class="article-image">
+
+
+
+
+                            <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_webcast_cykl_pmo_biuro_zarzadzania_projektami__1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_webcast_cykl_pmo_biuro_zarzadzania_projektami__4x1.png" data-aspectratio="1:1"/>
+
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Webinar: 4 elementy konieczne w PMO skierowanym na wartość<br />
+
+
+</h2>
+
+								<h3>Cykl webinarów PMO 4.0<br />
+
+
+</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Zarejestruj się
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('237af39b', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+		        </div>
+
+		</div>
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+
+
+
+		<div class="auto-width-column">
+			<div class="awc-one-hundred">
+				<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/6-najwiekszych-wyzwan-transformacji-zwinnych.html" target="_self" data-cq-id="22c389c8" data-promoname="6 największych wyzwań transformacji zwinnych&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+
+
+							<img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_4x1.png" data-aspectratio="1:1"/>
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>6 największych wyzwań transformacji zwinnych<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 23<br />
+
+
+</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('22c389c8', 'featured');
+         </script>
+
+
+
+
+</div>
+<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/10-punktow-do-wdrozenia-okrow-w-kazdej-organizacji.html" target="_self" data-cq-id="e2be91e" data-promoname="10 punktów do wdrożenia OKRów w każdej organizacji&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+
+
+							<img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_4x1.png" data-aspectratio="1:1"/>
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>10 punktów do wdrożenia OKRów w każdej organizacji<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 22<br />
+
+
+</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('e2be91e', 'featured');
+         </script>
+
+
+
+
+</div>
+<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-dzieki-facylitacji-zwiekszyc-efektywnosc-spotkan.html" target="_self" data-cq-id="72e82cf9" data-promoname="Jak dzięki facylitacji zwiększyć efektywność spotkań?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+
+
+							<img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_4x1.png" data-aspectratio="1:1"/>
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak dzięki facylitacji zwiększyć efektywność spotkań?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 21<br />
+
+
+</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('72e82cf9', 'featured');
+         </script>
+
+
+
+
+</div>
+<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/czy-User-Stories-nadaja-sie-do-dokumentowania-wymagan.html" target="_self" data-cq-id="caab8f97" data-promoname="Czy User Stories nadają się do dokumentowania wymagań?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+
+
+							<img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_podcast_agile_zbiorcza_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_zbiorcza_4x1.png" data-aspectratio="1:1"/>
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Czy User Stories nadają się do dokumentowania wymagań?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 20</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('caab8f97', 'featured');
+         </script>
+
+
+
+
+</div>
+<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-uruchomic-pierwszy-tribe-w-organizacji-w-8-krokach.html" target="_self" data-cq-id="648b7b84" data-promoname="Jak uruchomić pierwszy tribe w organizacji w 8 krokach?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+
+
+							<img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_podcast_agile_zbiorcza_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_zbiorcza_4x1.png" data-aspectratio="1:1"/>
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak uruchomić pierwszy tribe w organizacji w 8 krokach?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 19<br />
+
+
+</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('648b7b84', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+		    </div>
+		</div>
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-efektywnie-skalowac-metodyki-zwinne.html" target="_self" data-cq-id="dc8c93dd" data-promoname="Jak efektywnie skalować metodyki zwinne?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+
+                                    <img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_zbiorcza_4x1.png" data-aspectratio="4:1"/>
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak efektywnie skalować metodyki zwinne?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 18<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('dc8c93dd', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/Kiedy-potrzebujesz-Head-of-Remote-w-organizacji-Rozmowa-z-Iwo-Szaparem-Remote-How.html" target="_self" data-cq-id="2e872497" data-promoname="Kiedy potrzebujesz Head of Remote w organizacji? Rozmowa z Iwo Szaparem, CEO Remote-How&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+
+                                    <img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_zwinne_organizacje_yellow_4x1.jpeg" data-aspectratio="4:1"/>
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Kiedy potrzebujesz Head of Remote w organizacji? Rozmowa z Iwo Szaparem, CEO Remote-How<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 17<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('2e872497', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/czy-warto-outsourcowac-zespol-produktowy-agile.html" target="_self" data-cq-id="8bac81d5" data-promoname="Czy warto outsourcować zespół produktowy? – rozmowa z Tomkiem Woźniakiem z Future Mind&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+
+                                    <img alt="Odsłuchaj podcast" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_metodyki_zwinne_podcast_2_2020_4x1.png" data-aspectratio="4:1"/>
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Czy warto outsourcować zespół produktowy? – rozmowa z Tomkiem Woźniakiem z Future Mind<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 16<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('8bac81d5', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+</div>
+<div class="layoutcolumnctrl section">
+
+</div>
+<div class="layoutcolumnctrl section">
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/TOP-5-zmian-w-Scrum-Guide-2020.html" target="_self" data-cq-id="a90fe00b" data-promoname="TOP 5 zmian w Scrum Guide 2020" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_metodyki_zwinne_podcast_2_2020_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>TOP 5 zmian w Scrum Guide 2020</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 15<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('a90fe00b', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/zarzadzanie-zmiana-podczas-transformacji-agile.html" target="_self" data-cq-id="b881b123" data-promoname="Zarządzanie zmianą podczas transformacji agile" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_Zarzadzanie_zmiana_podczas_transformacji_agile_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Zarządzanie zmianą podczas transformacji agile</h2>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('b881b123', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-dobrze-przeprowadzic-transformacje-zwinna-wywiad-z-Jurgenem-Appelo.html" target="_self" data-cq-id="fff831e3" data-promoname="Jak dobrze przeprowadzić transformację zwinną? Wywiad z Jurgenem Appelo&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_Jak_dobrze_przeprowadzic_transformacje_zwinna_Wywiad_z_Jurgenem_Appelo_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak dobrze przeprowadzić transformację zwinną? Wywiad z Jurgenem Appelo<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 14<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('fff831e3', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-zespol-produktowy-przynosi-wartosc-organizacji.html" target="_self" data-cq-id="216098fa" data-promoname="Jak zespół produktowy przynosi wartość organizacji?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak zespół produktowy przynosi wartość organizacji?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 13<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('216098fa', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/zwinna-struktura-organizacji.html" target="_self" data-cq-id="434b38de" data-promoname="Zwinna struktura organizacji&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Zwinna struktura organizacji<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 12<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('434b38de', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/bariery-i-wyzwania-zwinnej-transformacji.html" target="_self" data-cq-id="80fb8495" data-promoname="Bariery i wyzwania zwinnej transformacji" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_czy_przejrzystosci_w_Scrum_mozna_naduzyc_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Bariery i wyzwania zwinnej transformacji</h2>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('80fb8495', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-mierzyc-wydajnosc-zespolu-Scrumowego.html" target="_self" data-cq-id="88a1b57c" data-promoname="Jak mierzyć wydajność zespołu Scrumowego?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak mierzyć wydajność zespołu Scrumowego?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 11<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('88a1b57c', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/czy-planowanie-roczne-nadal-ma-sens.html" target="_self" data-cq-id="c017eeb9" data-promoname="Czy planowanie roczne nadal ma sens?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Czy planowanie roczne nadal ma sens?<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 10<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('c017eeb9', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/pracownicy-dostarcza-to-co-mierzysz.html" target="_self" data-cq-id="1cd4cd9a" data-promoname="Pracownicy dostarczą to, co mierzysz" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Pracownicy dostarczą to, co mierzysz</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 9<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('1cd4cd9a', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/5-sposobow-na-przerost-Backlogu-Produktu.html" target="_self" data-cq-id="15560614" data-promoname="5 sposobów na przerost Backlogu Produktu&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>5 sposobów na przerost Backlogu Produktu<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 8<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('15560614', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/Scrum-w-zespolach-rozproszonych.html" target="_self" data-cq-id="dc1ec58" data-promoname="Scrum w zespołach rozproszonych&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Scrum w zespołach rozproszonych<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 7<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('dc1ec58', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/Agile-przyciaga-osoby-ktore-chca-budowac-organizacje-na-wartosciach-i-zaufaniu.html" target="_self" data-cq-id="e89f13e1" data-promoname="„Agile przyciąga osoby, które chcą budować organizację na wartościach i zaufaniu”" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_promo_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>„Agile przyciąga osoby, które chcą budować organizację na wartościach i zaufaniu”</h2>
+
+								<h3>Maciej Malesa gościem podcastu NOBS</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('e89f13e1', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/agile-nie-jest-celem-tylko-narzedziem.html" target="_self" data-cq-id="3c1ce2d5" data-promoname="Agile nie jest celem, tylko narzędziem&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile-nie-jest-celem-tylko-narzedziem_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Agile nie jest celem, tylko narzędziem<br />
+
+
+</h2>
+
+								<h3>Rozmowa z Andrzejem Mironem, CIO Nationale Nederlanden, o istocie transformacji zwinnej<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('3c1ce2d5', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/jak-nie-spedzac-calego-dnia-na-spotkaniach.html" target="_self" data-cq-id="b59e3545" data-promoname="Jak nie spędzać całego dnia na spotkaniach? &lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Jak nie spędzać całego dnia na spotkaniach? <br />
+
+
+</h2>
+
+								<h3>Jak organizować spotkania, żeby były efektywne i mieć czas na pracę?<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('b59e3545', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/w-Scrum-nie-ma-miejsca-na-polityke.html" target="_self" data-cq-id="334db1d5" data-promoname="W Scrum nie ma miejsca na politykę&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>W Scrum nie ma miejsca na politykę<br />
+
+
+</h2>
+
+								<h3>Zwinne Organizacje | Podcast o agile | odc. 6<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('334db1d5', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/inspekcja-i-adaptacja-w-scrum.html" target="_self" data-cq-id="df7c5c1f" data-promoname="Inspekcja i adaptacja w Scrum – remedium (nie tylko) na kryzys" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_inspekcja_i_adaptacja_w_scrum_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Inspekcja i adaptacja w Scrum – remedium (nie tylko) na kryzys</h2>
+
+								<h3>W jaki sposób można wykorzystać filary Scrum - inspekcję i adaptację w obliczu kryzysu?</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('df7c5c1f', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/kiedy-metodyki-zwinne-tylko-przeszkadzaja.html" target="_self" data-cq-id="649689ef" data-promoname="Kiedy metodyki zwinne tylko przeszkadzają?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_metodyki_zwinne_podcast_2_2020_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Kiedy metodyki zwinne tylko przeszkadzają?<br />
+
+
+</h2>
+
+								<h3>Zwinne organizacje | Podcast o agile | odc. 4<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('649689ef', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/czy-przejrzystosci-w-Scrum-mozna-naduzyc.html" target="_self" data-cq-id="6049f92b" data-promoname="Czy przejrzystości w Scrum można nadużyć?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_czy_przejrzystosci_w_Scrum_mozna_naduzyc_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Czy przejrzystości w Scrum można nadużyć?<br />
+
+
+</h2>
+
+								<h3>Filary i wartości Scrum a kultura organizacji<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('6049f92b', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/czy-product-owner-to-project-manager.html" target="_self" data-cq-id="c5732faa" data-promoname="Czy Product Owner to Project Manager?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_metodyki_zwinne_podcast_2_2020_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Czy Product Owner to Project Manager?<br />
+
+
+</h2>
+
+								<h3>Zwinne organizacje | Podcast o agile | odc. 3<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('c5732faa', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/metodyki-zwinne-scrum-master-to-nie-project-manager.html" target="_self" data-cq-id="56abc5a1" data-promoname="Scrum Master to nie Project Manager&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_metodyki_zwinne_podcast_2_2020_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Scrum Master to nie Project Manager<br />
+
+
+</h2>
+
+								<h3>Różnice między Scrum Masterem a Project Managerem</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('56abc5a1', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/czym-sa-metodyki-zwinne.html" target="_self" data-cq-id="d09d83cc" data-promoname="Czym są metodyki zwinne?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_odcinki_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Czym są metodyki zwinne?<br />
+
+
+</h2>
+
+								<h3>Zwinne organizacje | Podcast o agile | odc. 1<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('d09d83cc', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+
+
+
+		<div class="auto-width-column">
+			<div class="awc-one-hundred">
+				<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/podcast-o-agile/podcast-zwinne-organizacje.html" target="_self" data-cq-id="2436e7a9" data-promoname="Podcast “Zwinne organizacje”&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+                            <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl_podcast_agile_zbiorcza_1x1.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl_podcast_agile_zbiorcza_4x1.png" data-aspectratio="1:1"/>
+
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Podcast “Zwinne organizacje”<br />
+
+
+</h2>
+
+								<h3>Skuteczna pigułka wiedzy o agile<br />
+
+
+</h3>
+
+
+
+
+									<div class="call-to-action-label ">
+										Odsłuchaj podcast
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('2436e7a9', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+		    </div>
+		</div>
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/jak-mierzyc-wydajnosc-zespolow-Scrumowych.html" target="_self" data-cq-id="ec9b1400" data-promoname="Jak mierzyć wydajność zespołów Scrumowych?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_jak_mierzyc_wydajnosc_zespolow_Scrumowych_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Jak mierzyć wydajność zespołów Scrumowych?<br />
+
+
+</h2>
+
+								<h3>Ustalanie KPI w Scrum</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('ec9b1400', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/solutions/digital-workplace-organizacja-pracy-zdalnej.html" target="_self" data-cq-id="57608e8b" data-promoname="Usługi Deloitte w zakresie Digital Workplace w zespołach rozproszonych" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_digital_workplace_organizacja_pracy_zdalnej_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Usługi Deloitte w zakresie Digital Workplace w zespołach rozproszonych</h2>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('57608e8b', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/5-porad-jak-zarzadzac-praca-zdalna-w-wirtualnym-zespole.html" target="_self" data-cq-id="1771c9d2" data-promoname="5 porad, jak zarządzać pracą zdalną w wirtualnym zespole&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_5_porad_jak_zarzadzac_praca_zdalna_ w_wirtualnym_zespole_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>5 porad, jak zarządzać pracą zdalną w wirtualnym zespole<br />
+
+
+</h2>
+
+								<h3>Doświadczenia menedżerów Deloitte</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('1771c9d2', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/nie-stac-cie-na-slaby-Scrum.html" target="_self" data-cq-id="244511fe" data-promoname="Nie stać Cię na słaby Scrum&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_nie_stac_cie_na_slaby_scrum_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Nie stać Cię na słaby Scrum<br />
+
+
+</h2>
+
+								<h3>Scrum źródłem zwinności organizacyjnej </h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('244511fe', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/techniki-i-narzedzia-usprawniajace-codzienna-prace-Product-Ownera.html" target="_self" data-cq-id="735eca02" data-promoname="Techniki i narzędzia usprawniające codzienną pracę Product Ownera&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_Techniki_i_narzedzia_usprawniajace_codzienna_prace_Product_Ownera_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Techniki i narzędzia usprawniające codzienną pracę Product Ownera<br />
+
+
+</h2>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('735eca02', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/ile-powinno-kosztowac-IT-czy-agile-ma-wplyw-na-koszty.html" target="_self" data-cq-id="abcdf31d" data-promoname="Ile powinno kosztować IT, czy agile ma wpływ na koszty i co na to Pablo Escobar?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_koszty_IT_budzet_agile_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Ile powinno kosztować IT, czy agile ma wpływ na koszty i co na to Pablo Escobar?<br />
+
+
+</h2>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('abcdf31d', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+
+
+
+		<div class="auto-width-column">
+			<div class="awc-one-hundred">
+				<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/cio-insights-newsletter/CIO-Insights.html" target="_self" data-cq-id="f0761e1a" data-promoname="Newsletter: CIO Insights" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+						<div class="article-image">
+
+
+
+
+                            <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/pl-newsletter-cio-insights-promo-700-700.png" data-orgsrc1="/content/dam/Deloitte/pl/Images/header_images/pl-newsletter-cio-insights-banner-1400-350.png" data-aspectratio="1:1"/>
+
+
+
+
+                        </div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Newsletter: CIO Insights</h2>
+
+								<h3>CIO partnerem w biznesie i inicjatorem zmian</h3>
+
+
+
+
+
+									<p class="description-short">Nie przegap najnowszych artykułów, podcastów, raportów z obszaru IT</p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">CIO partnerem w biznesie i inicjatorem zmian</p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Zarejestruj się na newsletter
+									</div>
+
+
+						</div>
+
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('f0761e1a', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+		    </div>
+		</div>
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/poradnik-czy-latwo-byc-zwinnym-transformacja-agile.html" target="_self" data-cq-id="6fff1187" data-promoname="Poradnik: „Czy łatwo być zwinnym? Transformacja Agile w dużej organizacji” &lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_czy_latwo_byc_zwinnym_poradnik_transformacja_agile_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Poradnik: „Czy łatwo być zwinnym? Transformacja Agile w dużej organizacji” <br />
+
+
+</h2>
+
+								<h3>Pobierz interaktywny pdf</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Pobierz poradnik
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('6fff1187', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/piec-oznak-ktore-wystepuja-w-organizacjach-tylko-pozornie-zwinnych-agile.html" target="_self" data-cq-id="1c9f6c4d" data-promoname="Pięć oznak, które występują w organizacjach tylko pozornie zwinnych (agile)&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_blog_agile_4x1_banner.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Pięć oznak, które występują w organizacjach tylko pozornie zwinnych (agile)<br />
+
+
+</h2>
+
+
+
+
+
+
+									<p class="description-short">Nomenklatura wprowadzona przez agile, w szczególności Scrum, na stałe zadomowiła się w polskich organizacjach.</p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">Trwa moda na agile, jednak w wielu przypadkach zmiany wprowadzone do modelu operacyjnego organizacji są powierzchowne i nie przynoszą oczekiwanych rezultatów. Niniejszy artykuł przedstawia pięć często powtarzających się oznak, które wskazują na to, że organizacja jest jedynie pozornie zwinna. </p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('1c9f6c4d', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/scrum-master-wlasciciel-produktu-zespol-deweloperski.html" target="_self" data-cq-id="f6a7007d" data-promoname="Kim jest Scrum Master, właściciel produktu i zespół deweloperski?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_kontraktowanie_4x1_2019.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Kim jest Scrum Master, właściciel produktu i zespół deweloperski?<br />
+
+
+</h2>
+
+								<h3>Role w zespołach zwinnych (np. Scrum)<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('f6a7007d', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/korporacje-i-startupy-przelotny-mezalians-czy-strategiczna-wspolpraca-w-dobie-digitalizacji.html" target="_self" data-cq-id="91f4db05" data-promoname="Korporacje i startupy – przelotny mezalians czy strategiczna współpraca w dobie digitalizacji?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_Korporacje_i_startupy_blog_agile_4x1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Korporacje i startupy – przelotny mezalians czy strategiczna współpraca w dobie digitalizacji?<br />
+
+
+</h2>
+
+								<h3>Korzyści i ryzyka współpracy w ramach koncepcji otwartych innowacji<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('91f4db05', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/kiedy_jakosc_naszego_produktu_jest_wyzsza.html" target="_self" data-cq-id="c830b366" data-promoname="Agile a testy. Kiedy jakość naszego produktu jest wyższa?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_blog_agile_4x1_banner.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Agile a testy. Kiedy jakość naszego produktu jest wyższa?<br />
+
+
+</h2>
+
+								<h3>Testy jednostkowe i funkcjonalne w procesie tworzenia produktów cyfrowych</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Przejdź do wpisu
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('c830b366', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/10_sposobow_jak_promowac_podejscie_agile_wewnatrz_organizacji.html" target="_self" data-cq-id="493eb597" data-promoname="10 sposobów jak promować podejście agile wewnątrz organizacji?" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_Agile_ zwinne_organizacje_.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>10 sposobów jak promować podejście agile wewnątrz organizacji?</h2>
+
+								<h3>Zarządzanie zmianą w projektach zwinnych</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('493eb597', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/kontraktowanie-prac-w-metodykach-zwinnych.html" target="_self" data-cq-id="f7fb9d82" data-promoname="Agile na fix price, czyli jak przygotować dobrą umowę na projekty agile?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_kontraktowanie_4x1_2019.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Agile na fix price, czyli jak przygotować dobrą umowę na projekty agile?<br />
+
+
+</h2>
+
+								<h3>Kontraktowanie prac w metodykach zwinnych<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Czytaj dalej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('f7fb9d82', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/transformacja-agile-case-orange.html" target="_self" data-cq-id="f6d5b70" data-promoname="Transformacja Agile w organizacji" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_transformacja_agile_orange_1400x350.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>Transformacja Agile w organizacji</h2>
+
+								<h3>Case Study zmian w obszarze Digital &amp; Performance Marketing Orange Polska<br />
+
+
+</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('f6d5b70', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/devsecops-bezpieczenstwo-safety.html" target="_self" data-cq-id="709903f" data-promoname="DevSecOps – bezpieczeństwo na miarę naszych możliwości&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="perspectives">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl-newsletter-cio-insights-banner-1400-350.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Punkty widzenia</p>
+							<h2>DevSecOps – bezpieczeństwo na miarę naszych możliwości<br />
+
+
+</h2>
+
+								<h3>Połączenie zespołów rozwoju oprogramowania (Dev) z jego utrzymaniem (Ops) i działem bezpieczeństwa (Sec), to metoda na skrócenie czasu pracy nad projektami wdrożeniowymi</h3>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('709903f', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/design-thinking-lean-startup-agile.html" target="_self" data-cq-id="929760c6" data-promoname="Design Thinking vs. Lean Startup vs. Agile&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_skalowanie_zwinnych_zespolow_agile_banner.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Design Thinking vs. Lean Startup vs. Agile<br />
+
+
+</h2>
+
+
+
+
+
+
+									<p class="description dot-ellipsis dot-resize-update">Design Thinking, Lean Startup czy Agile, to pojęcia dobrze znane osobom pracującym nad budową innowacyjnych produktów. Stały się one na tyle modne i popularne, że są używane niemal zamiennie. Czym jednak się różnią i kiedy je stosować?</p>
+
+
+
+
+									<div class="call-to-action-label ">
+										Przejdź do wpisu
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('929760c6', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/value-stream-mapping.html" target="_self" data-cq-id="320375f0" data-promoname="Maciej Malesa na Agile Warsaw o Value Stream Mapping&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_agile_value_stream_mapping_banner.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Maciej Malesa na Agile Warsaw o Value Stream Mapping<br />
+
+
+</h2>
+
+
+
+
+
+
+									<p class="description-short">Jak skutecznie skalować pracę zespołów zwinnych w dużych organizacjach? O tym, między innymi, rozmawialiśmy pod koniec października z naszymi kolegami z niemieckiego Deloitte, którzy podzielili się praktyczną wiedzą i doświadczeniami ze swojej pracy z wykorzystaniem metodyki Scaled Agile Framework (SAFe). Przy okazji poprosiliśmy o krótki wywiad specjalnie dla czytelników naszego bloga „Zwinne organizacje”.</p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">Co to jest Value Stream Mapping i jak pozwala dowiedzieć się co należy zmienić, żeby zespół mógł pracować efektywniej, jakie są wąskie gardła w procesie budowy produktów, ile wynosi time-to-market, jak wysoki jest współczynnik efektywności cyklu, gdzie są marnowane pieniądze? Zapis prelekcji.</p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('320375f0', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/efektywne-skalowanie-zwinnych-zespolow-agile.html" target="_self" data-cq-id="b7d15dac" data-promoname="Efektywne skalowanie zwinnych zespołów&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl_skalowanie_zwinnych_zespolow_agile_banner.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Efektywne skalowanie zwinnych zespołów<br />
+
+
+</h2>
+
+								<h3>Wywiad z Haraldem Steinbornem i Liangiem Que<br />
+
+
+</h3>
+
+
+
+
+
+
+									<p class="description-short">Jak skutecznie skalować pracę zespołów zwinnych w dużych organizacjach? O tym, między innymi, rozmawialiśmy pod koniec października z naszymi kolegami z niemieckiego Deloitte, którzy podzielili się praktyczną wiedzą i doświadczeniami ze swojej pracy z wykorzystaniem metodyki Scaled Agile Framework (SAFe). Przy okazji poprosiliśmy o krótki wywiad specjalnie dla czytelników naszego bloga „Zwinne organizacje”.</p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">Jak skutecznie skalować pracę zespołów zwinnych w dużych organizacjach? O tym rozmawialiśmy pod koniec października z naszymi kolegami z Deloitte Germany, którzy podzielili się praktyczną wiedzą i doświadczeniami ze swojej pracy z wykorzystaniem metodyki Scaled Agile Framework (SAFe).</p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Czytaj dalej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('b7d15dac', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+
+				<div class="awc-three-thirtythree-c0 insight-white ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/czym-tak-naprawde-jest-agile.html" target="_self" data-cq-id="9da10737" data-promoname="Czym tak naprawdę jest Agile?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl-blog-zwinne-organizacje-agile-3-4-1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Czym tak naprawdę jest Agile?<br />
+
+
+</h2>
+
+
+
+
+
+
+									<p class="description-short">Kolejne organizacje podążając za modą i współczesnymi trendami decydują się na porzucenie tradycyjnego modelu kaskadowego, aby uczyć się pracy zgodnie z filozofią Agile. Czy to oznacza, że odnaleźliśmy Świętego Grala zarządzania projektami? </p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">W ciągu ostatniej dekady termin „Agile” zyskał na popularności. Liczba transformacji, które zakończyły się sukcesem, tylko podnosi entuzjazm kadr zarządzających. Czy to oznacza, że odnaleźliśmy Świętego Graala zarządzania projektami?</p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('9da10737', 'featured');
+         </script>
+
+
+
+
+</div>
+<div class="featuredpromo section">
+
+
+
+
+
+
+	<div class="featured-promo expired-promo"></div>
+
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 insight-white ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/jak-wprowadzic-agile-i-nie-zwariowac.html" target="_self" data-cq-id="f097e679" data-promoname="Jak wprowadzić Agile i nie zwariować?" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl-blog-zwinne-organizacje-agile-2-4-1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Jak wprowadzić Agile i nie zwariować?</h2>
+
+								<h3>Wywiad z Jurgenem De Smet</h3>
+
+
+
+
+
+
+									<p class="description-short">Tworzenie iteracyjnych procesów wewnątrz poszczególnych działów przychodzi z łatwością ale zmiana strukturalna przyczyniająca się do osiągnięcia pełnej zwinności (z ang. enterprise agility) jest prawdziwym wyzwaniem dla przedsiębiorstw.</p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">Przekazanie odpowiedzialności zespołom bez powoływania nowych struktur oraz procesów to najskuteczniejszy sposób na utrzymanie prawdziwej zwinności organizacji. Istnieją ramy postępowania, które pozwalają na zachowanie prostoty podczas prac z nawet setkami zespołów.</p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Czytaj dalej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('f097e679', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 insight-white ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="featuredpromo section">
+
+
+
+
+
+
+
+
+
+
+
+			<a class="promo-focus" href="/pl/pl/pages/technology/articles/moda-na-scrum-zwinny-rozwoj-produktow-it.html" target="_self" data-cq-id="1378bf25" data-promoname="Moda na Scrum. Jak nie utracić korzyści związanych ze zwinnym rozwojem produktów IT?&lt;br>
+" data-promocategory="curated" data-promotype="featured" data-promocontenttype="article" data-contenttype="insights">
+				<div class="featured-promo descriptive-promo insight-white">
+
+
+						<div class="article-image">
+
+
+
+
+
+                                   <img alt="" src="" data-orgsrc="/content/dam/Deloitte/pl/Images/header_images/pl-blog-zwinne-organizacje-agile-4-4-1.png" data-aspectratio="4:1"/>
+
+
+
+
+						</div>
+						<div class="article-text">
+							<p class="promo-label">Artykuł</p>
+							<h2>Moda na Scrum. Jak nie utracić korzyści związanych ze zwinnym rozwojem produktów IT?<br />
+
+
+</h2>
+
+
+
+
+
+
+									<p class="description-short">Co odróżnia odnoszące sukcesy startupy od tradycyjnych korporacji? Wykorzystują one najnowsze technologie do budowy innowacyjnych i szybko skalowanych rozwiązań, które tworzą wartość dla klienta.</p>
+									<p class="description dot-ellipsis dot-resize-update short-desc-enabled">Dla zapewnia zarówno szybkości, jak i wysokiego poziomu jakości, większość technologicznych czempionów do rozwoju swoich produktów wykorzystuje różnego rodzaju tzw. zwinne metodyki. W ostatnich latach szczególną popularnością cieszy się Scrum.</p>
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+						</div>
+
+				</div>
+			</a>
+			<div class="clear"></div>
+		<script type="text/javascript">
+	 		registerCuratedPromos('1378bf25', 'featured');
+         </script>
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+        </div>
+
+
+
+
+</div>
+<div class="layoutcolumnctrl section">
+
+</div>
+<div class="layoutcolumnctrl section">
+
+
+
+		<div class="auto-width-column">
+
+				<div class="awc-three-thirtythree-c0 ">
+					<div class="three-thirtythree-c0 dcomparsys">
+						<!-- Standard/Featured 4:1 promo-->
+						<div>
+	<div class="standardpromo section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a class="promo-focus" href="/pl/pl/pages/technology/articles/cio-insights-newsletter/styczen-2019/jak-efektywnie-zrealizowac-projekt-transformacji-organizacji.html" target="_self" data-cq-id="6292ab57" data-promoname="Jak efektywnie zrealizować projekt transformacji organizacji?&lt;br>
+" data-promocategory="curated" data-promotype="standard" data-promocontenttype="article" data-contenttype="insights">
+			<div class="standard-promo perspective-color">
+
+                <p class="promo-label">Artykuł</p>
+
+
+
+              <h3 class="tertiary-headline">Jak efektywnie zrealizować projekt transformacji organizacji?<br />
+
+
+</h3>
+
+
+
+
+
+
+                       <div class="page-description-for-promo">W latach 2017-2018 Volkswagen Financial Services w Polsce przy wsparciu Deloitte przeprowadziła złożony projekt transformacji obejmujący wszystkie funkcje w organizacji. Co pomogło osiągnąć sukces, co można było zrobić lepiej, oraz jak w ciągu dwóch lat zmieniał się sposób prowadzenia projektu?</div>
+
+
+
+
+
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Przejdź do wpisu
+									</div>
+
+
+
+			</div>
+		</a>
+
+
+
+
+	<script type="text/javascript">
+		registerCuratedPromos('6292ab57', 'standard');
+
+		/*
+		Commenting this snippet for not to populate promo ids
+		var flag = 'false';
+		var datalayerpromoID = '6292ab57';
+            if(flag == 'true'){
+				dataLayer.page.attributes.promoIds = dataLayer.page.attributes.promoIds + "," + datalayerpromoID;
+            } else {
+				dataLayer.seeMoreSection.promoIds = dataLayer.seeMoreSection.promoIds + "," + datalayerpromoID;
+            } */
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c1 ">
+					<div class="three-thirtythree-c1 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="standardpromo section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a class="promo-focus" href="/pl/pl/pages/human-capital/articles/employee-experience/Pracujac-dla-pracownikow.html" target="_self" data-cq-id="48344c2d" data-promoname="Pracując dla pracowników&lt;br>
+" data-promocategory="curated" data-promotype="standard" data-promocontenttype="article" data-contenttype="insights">
+			<div class="standard-promo perspective-color">
+
+                <p class="promo-label">Artykuł</p>
+
+
+
+              <h3 class="tertiary-headline">Pracując dla pracowników<br />
+
+
+</h3>
+
+
+
+
+                          <p class="description dot-ellipsis dot-resize-update">Przykład wdrożenia platformy łączącej najważniejsze systemy wewnętrzne i narzędzia obsługi pracowników</p>
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+
+			</div>
+		</a>
+
+
+
+
+	<script type="text/javascript">
+		registerCuratedPromos('48344c2d', 'standard');
+
+		/*
+		Commenting this snippet for not to populate promo ids
+		var flag = 'false';
+		var datalayerpromoID = '48344c2d';
+            if(flag == 'true'){
+				dataLayer.page.attributes.promoIds = dataLayer.page.attributes.promoIds + "," + datalayerpromoID;
+            } else {
+				dataLayer.seeMoreSection.promoIds = dataLayer.seeMoreSection.promoIds + "," + datalayerpromoID;
+            } */
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+
+				<div class="awc-three-thirtythree-c2 ">
+					<div class="three-thirtythree-c2 dcomparsys">
+					<!-- Standard/Featured 4:1 promo-->
+					<div>
+	<div class="standardpromo section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a class="promo-focus" href="/pl/pl/pages/human-capital/articles/employee-experience/poznanie-doswiadczen-kandydatow-impuls--do-przebudowy-procesu-rekrutacji.html" target="_self" data-cq-id="e3be5716" data-promoname="Jak poznanie doświadczeń kandydatów może stać się impulsem do przebudowy procesu rekrutacji&lt;br>
+" data-promocategory="curated" data-promotype="standard" data-promocontenttype="article" data-contenttype="insights">
+			<div class="standard-promo perspective-color">
+
+                <p class="promo-label">Artykuł</p>
+
+
+
+              <h3 class="tertiary-headline">Jak poznanie doświadczeń kandydatów może stać się impulsem do przebudowy procesu rekrutacji<br />
+
+
+</h3>
+
+
+
+
+                          <p class="description dot-ellipsis dot-resize-update">Case study przebudowy systemu rekrutacji, który zwiększył jego efektywność o ponad 30%</p>
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="call-to-action-label ">
+										Dowiedz się więcej
+									</div>
+
+
+
+			</div>
+		</a>
+
+
+
+
+	<script type="text/javascript">
+		registerCuratedPromos('e3be5716', 'standard');
+
+		/*
+		Commenting this snippet for not to populate promo ids
+		var flag = 'false';
+		var datalayerpromoID = 'e3be5716';
+            if(flag == 'true'){
+				dataLayer.page.attributes.promoIds = dataLayer.page.attributes.promoIds + "," + datalayerpromoID;
+            } else {
+				dataLayer.seeMoreSection.promoIds = dataLayer.seeMoreSection.promoIds + "," + datalayerpromoID;
+            } */
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+					</div>
+				</div>
+
+
+        </div>
+
+
+
+
+</div>
+</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-30 tab-solutions fade-load" style="display: none;">
+
+
+	<div class="calltoaction section">
+
+
+
+
+
+
+
+
+	<div id="full-topic__call-action">
+	    <a class="promo-focus" href="/pl/pl/footerlinks/submit-rfp.html" data-cq-id="7fb791ff" data-promocategory="curated" data-promoname="calltoaction" data-promotype="calltoaction" data-promocontenttype="submit_rfp">
+	        <div id="call-to-action-rfp" class="insight-deloitte-blue box call-to-action">
+	            <h3>Wyślij zapytanie ofertowe</h3>
+	            <p class="description"></p>
+	            <p class="button body-copy btn-blue">Wyślij zapytanie ofertowe za pomocą formularza</p>
+	        </div>
+	    </a>
+	<div class='clear'></div>
+	<!-- Modified for Promo ids -->
+	</div>
+</div>
+<div class="calltoaction section">
+
+
+
+
+
+
+
+
+	<div id="full-topic__call-action">
+	    <a class="promo-focus" href="/pl/pl/footerlinks/contact-us.html" data-cq-id="a1d8533" data-promocategory="curated" data-promoname="calltoaction" data-promotype="calltoaction" data-promocontenttype="contact_us">
+	        <div id="call-to-action-contact" class="insight-deloitte-blue box call-to-action">
+	            <h3>Skontaktuj się z nami</h3>
+	            <p class="description"></p>
+	            <p class="button body-copy btn-blue">Wypełnij formularz kontaktowy</p>
+	        </div>
+	    </a>
+	<div class='clear'></div>
+	<!-- Modified for Promo ids -->
+	</div>
+</div>
+<div class="calltoaction section">
+
+
+
+
+
+
+
+
+	<div id="full-topic__call-action">
+	    <a class="promo-focus" href="/pl/pl/footerlinks/subskrypcje.html" data-cq-id="d33d4725" data-promocategory="curated" data-promoname="calltoaction" data-promotype="calltoaction" data-promocontenttype="submit_rfp">
+	        <div id="call-to-action-rfp" class="insight-deloitte-blue box call-to-action">
+	            <h3>Zapisz się na „Zwinne organizacje. Blog i podcast o agile”</h3>
+	            <p class="description"></p>
+	            <p class="button body-copy btn-blue">Subskrybuj</p>
+	        </div>
+	    </a>
+	<div class='clear'></div>
+	<!-- Modified for Promo ids -->
+	</div>
+</div>
+
+
+						<div>
+
+
+
+
+
+
+
+
+    <div class="topic-services" id="full-topic__solution-list">
+	<!--  Start of Fix for Defect# 554755 : Added logic to trim spaces if spaces are given in Title mandatory field -->
+
+             <h3 class="tertiary-headline">Usługi</h3>
+
+
+	<!--  END of Fix for Defect# 554755 : Added logic to trim spaces if spaces are given in Title mandatory field -->
+        <ul class="service-tags">
+               <li>
+                    <a href="/pl/pl/pages/technology/solutions/agile.html" class="promo-focus" target="_self" data-cq-id="8207367f" data-promoname="Doradztwo w obszarze Agile&lt;br>
+" data-promocategory="curated" data-promotype="standard" data-promocontenttype="solutions" id="cq-gen94">
+                        <h3 class="service-title">Doradztwo w obszarze Agile<br />
+
+
+</h3>
+                        <p>Widzimy, że produkty cyfrowe można tworzyć o wiele szybciej i taniej jeśli ludzie będą zorganizowani wokół produktów a nie wokół funkcji. Wymaga to dużej zmiany, w której pomagamy naszym Klientom.  </p>
+                     </a>
+                     <script type="text/javascript">
+	 		registerCuratedPromos('8207367f', 'featured');
+         </script>
+                </li>
+
+               <li>
+                    <a href="/pl/pl/pages/technology/solutions/cio-chief-information-officer-dyrektor-IT.html" class="promo-focus" target="_self" data-cq-id="9f77e5a5" data-promoname="CIO Program" data-promocategory="curated" data-promotype="standard" data-promocontenttype="solutions" id="cq-gen94">
+                        <h3 class="service-title">CIO Program</h3>
+                        <p>Kończy się czas, kiedy szef IT podążał za biznesem, a technologia pełniła funkcję wsparcia. Firmy i ich liderzy IT osiągający sukcesy w erze cyfryzacji to organizacje, w których technologia jest podstawą prowadzenia działalności biznesowej, motorem zmian, rozwoju i generowania przychodów.</p>
+                     </a>
+                     <script type="text/javascript">
+	 		registerCuratedPromos('9f77e5a5', 'featured');
+         </script>
+                </li>
+
+               <li>
+                    <a href="/pl/pl/pages/technology/solutions/deloitte-digital.html" class="promo-focus" target="_self" data-cq-id="16fff1d6" data-promoname="Deloitte Digital&lt;br>
+" data-promocategory="curated" data-promotype="standard" data-promocontenttype="solutions" id="cq-gen94">
+                        <h3 class="service-title">Deloitte Digital<br />
+
+
+</h3>
+                        <p>Zespół Deloitte Digital pomaga firmom wdrażać podejście oparte na myśleniu projektowym i skupiające się na kliencie - od etapu tworzenia strategii, po jej realizację. Poznaj nasze usługi.</p>
+                     </a>
+                     <script type="text/javascript">
+	 		registerCuratedPromos('16fff1d6', 'featured');
+         </script>
+                </li>
+        </ul>
+
+    </div>
+
+
+
+						</div>
+
+
+                            <div id="topic-similar-trends" class="similar-trends" style="display: none">
+                                <h3 class="tertiary-headline">Powiązane tematy</h3>
+                                <ul class="article-tags">
+                                </ul>
+                            </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="getintouch-component" class="get-in-touch tab-profiles fade-load" style="display: none;">
+
+
+
+
+<div class="get-in-touch">
+  <div class="content">
+    <div class="tier">
+
+      <div class="col-70" id="full-topic__get-in-touch">
+
+       <h3 class="headline">Kontakt</h3>
+       <div class="tier">
+        <div class="col-100">
+
+
+      </div>
+    </div>
+
+
+      <div class="author-panel-area">
+
+        <div class="get-in-touch-authorhostpanel0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="">
+
+
+
+
+   <div itemscope itemtype="http://schema.org/Person">
+
+
+
+
+   <div>
+
+
+   <div class="author-panel author-panel-2">
+   <div class="box-white box-container-white">
+
+   <div class="profile-boxes">
+
+   <!-- Profile Boxes Inner -->
+
+
+
+   <div class="profile-box-inner">
+   <div class="profile-img">
+   <img src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl_daniel_martyniuk_promo_2019.jpg" content="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl_daniel_martyniuk_promo_2019.jpg" alt="Daniel Martyniuk" data-aspectratio="1:1" itemprop="image"/>
+   </div>
+   <div class="profile-txt">
+   <h4 class="profile-name" itemprop="name">
+   <a id="more-emp-info0" href="/pl/pl/profiles/dmartyniuk.html">Daniel Martyniuk </a>
+   </h4>
+   <h5 class="roles" itemprop="jobTitle">
+
+   <span class="role-name">Partner, Lider doradztwa technologicznego</span>
+
+   </h5>
+
+
+
+
+
+
+   <div class="email-wrapper no-pipe">
+   <p itemprop="email">
+   <a href="mailto:damartyniuk@deloittece.com" data-contacttype="email">
+   damartyniuk@deloittece.com </a>
+   </p>
+   </div>
+
+
+
+
+
+   <div class="social-media-wrapper">
+   <ul>
+
+
+
+   <!--Start of Defect #276173 : Code cleanup related to Google+ -->
+
+   <!--End of Defect #276173 : Code cleanup related to Google+ -->
+
+
+
+
+
+
+   </ul>
+   </div>
+
+   </div>
+   </div>
+
+
+
+   <!-- Profile Boxes Inner -->
+
+
+
+   <div class="profile-box-inner">
+   <div class="profile-img">
+   <img src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl_profilowe_malesa_04_2018_1x1.jpg" content="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl_profilowe_malesa_04_2018_1x1.jpg" alt="Maciej Malesa" data-aspectratio="1:1" itemprop="image"/>
+   </div>
+   <div class="profile-txt">
+   <h4 class="profile-name" itemprop="name">
+   <a id="more-emp-info1" href="/pl/pl/profiles/MaciejMalesa.html">Maciej Malesa </a>
+   </h4>
+   <h5 class="roles" itemprop="jobTitle">
+
+   <span class="role-name">Agile Advisory Leader</span>
+
+   </h5>
+
+
+
+
+
+   <div class="email-wrapper">
+	   <p itemprop="email">
+
+
+					   <a href="mailto:mamalesa@deloittece.com" data-contacttype="email">
+					   mamalesa@deloittece.com </a>
+
+
+
+
+	   </p>
+   </div>
+
+
+
+
+
+   <div class="tel-number-wrapper">
+   <p itemprop="telephone">
+   <a href="tel:+48664199830" data-contacttype="phone">
+   +48 664 199 830 </a>
+   </p>
+   </div>
+
+
+   <div class="social-media-wrapper">
+   <ul>
+
+
+   <li><a href="https://www.linkedin.com/in/maciej-malesa-24137a41/" class="icon-linkedin" title="LinkedIn" target="_blank"></a></li>
+
+
+   <!--Start of Defect #276173 : Code cleanup related to Google+ -->
+
+   <!--End of Defect #276173 : Code cleanup related to Google+ -->
+
+
+
+
+
+
+   </ul>
+   </div>
+
+   </div>
+   </div>
+
+
+
+   </div>
+   </div>
+   </div>
+
+   </div>
+   </div>
+
+</div>
+
+
+
+
+   </div>
+        <div class="get-in-touch-authorhostpanel1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="">
+
+
+
+
+   <div itemscope itemtype="http://schema.org/Person">
+
+
+
+
+   <div>
+
+
+   <div class="author-panel author-panel-2">
+   <div class="box-white box-container-white">
+
+   <div class="profile-boxes">
+
+   <!-- Profile Boxes Inner -->
+
+
+
+   <div class="profile-box-inner">
+   <div class="profile-img">
+   <img src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl_profilowe_Bartek_Leszczynski_04_2018_1x1.jpg" content="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl_profilowe_Bartek_Leszczynski_04_2018_1x1.jpg" alt="Bartłomiej Leszczyński" data-aspectratio="1:1" itemprop="image"/>
+   </div>
+   <div class="profile-txt">
+   <h4 class="profile-name" itemprop="name">
+   <a id="more-emp-info0" href="/pl/pl/profiles/BartlomiejLeszczynski.html">Bartłomiej Leszczyński </a>
+   </h4>
+   <h5 class="roles" itemprop="jobTitle">
+
+   <span class="role-name">Agile Advisory</span>
+
+   </h5>
+
+
+
+
+
+   <div class="email-wrapper">
+	   <p itemprop="email">
+
+
+					   <a href="mailto:bleszczynski@deloittece.com" data-contacttype="email">
+					   bleszczynski@deloittece.com </a>
+
+
+
+
+	   </p>
+   </div>
+
+
+
+
+
+   <div class="tel-number-wrapper">
+   <p itemprop="telephone">
+   <a href="tel:+48734187423" data-contacttype="phone">
+   +48 734 187 423 </a>
+   </p>
+   </div>
+
+
+   <div class="social-media-wrapper">
+   <ul>
+
+
+   <li><a href="https://www.linkedin.com/in/bartłomiej-leszczyński-46841460" class="icon-linkedin" title="LinkedIn" target="_blank"></a></li>
+
+
+   <!--Start of Defect #276173 : Code cleanup related to Google+ -->
+
+   <!--End of Defect #276173 : Code cleanup related to Google+ -->
+
+
+
+
+
+
+   </ul>
+   </div>
+
+   </div>
+   </div>
+
+
+
+   <!-- Profile Boxes Inner -->
+
+
+
+   <div class="profile-box-inner">
+   <div class="profile-img">
+   <img src="" data-orgsrc="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl-Artur-Kozuch-1-1.png" content="/content/dam/Deloitte/pl/Images/promo_images/profilowe/pl-Artur-Kozuch-1-1.png" alt="Artur Kożuch" data-aspectratio="1:1" itemprop="image"/>
+   </div>
+   <div class="profile-txt">
+   <h4 class="profile-name" itemprop="name">
+   <a id="more-emp-info1" href="/pl/pl/profiles/akozuch.html">Artur Kożuch </a>
+   </h4>
+   <h5 class="roles" itemprop="jobTitle">
+
+   <span class="role-name">Agile Advisory</span>
+
+   </h5>
+
+
+
+
+
+   <div class="email-wrapper">
+	   <p itemprop="email">
+
+
+					   <a href="mailto:akozuch@deloittece.com" data-contacttype="email">
+					   akozuch@deloittece.com </a>
+
+
+
+
+	   </p>
+   </div>
+
+
+
+
+
+   <div class="tel-number-wrapper">
+   <p itemprop="telephone">
+   <a href="tel:+48668497027" data-contacttype="phone">
+   +48 668 497 027 </a>
+   </p>
+   </div>
+
+
+   <div class="social-media-wrapper">
+   <ul>
+
+
+
+   <!--Start of Defect #276173 : Code cleanup related to Google+ -->
+
+   <!--End of Defect #276173 : Code cleanup related to Google+ -->
+
+
+
+
+
+
+   </ul>
+   </div>
+
+   </div>
+   </div>
+
+
+
+   </div>
+   </div>
+   </div>
+
+   </div>
+   </div>
+
+</div>
+
+
+
+
+   </div>
+
+
+      </div>
+
+
+ </div>
+
+ <div class="col-30" id="full-topic__twitter-section">
+<!--Fix for defect 226091. Modified below div. Added data-sly-unwrap. -->
+
+
+
+
+
+
+
+
+
+
+      <div>
+
+
+   </div>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+		</div>
+
+<script language="javascript">
+    var topicTagValues =  'Agile';
+    var entityName_dataLayer = 'Zwinne organizacje Blog o Agile Deloitte Polska';
+
+	// Bug fix - 327897 - START
+		dataLayer.page.attributes.fullTopicPrimaryTag = topicTagValues;
+	// Bug fix - 327897 - END
+
+	// DTM - Data layer - updating the search term START
+		dataLayer.page.attributes.entityName = entityName_dataLayer;
+	// DTM - Data layer - updating the search term - END
+</script>
+</div>
+<div class="dcom-footer-wrapper">
+
+
+
+
+
+<!-- Footer component starts-->
+<footer class="cmp-footer" id="footer">
+    <!-- Footer Top Bar starts -->
+    <div class="cmp-footer__top-bar">
+        <div class="cmp-container-width aem-Grid aem-Grid--12">
+            <div class="aem-GridColumn aem-GridColumn--default--9 aem-GridColumn--tablet--12 aem-GridColumn--phone--12">
+                <!-- Footer CTA start-->
+                <ul class="cmp-footer__cta-links" id="footer__cta-links">
+
+                        <li><a href="http://www.deloitte.com/pl/wydarzenia" target="_self">Wydarzenia</a></li>
+
+
+                        <li><a href="/pl/pl/footerlinks/subskrypcje.html?icid=bn_subskrypcje" target="_self">Newslettery</a></li>
+
+
+                        <li class="submit-rfp"><a href="/pl/pl/pages/webcasty/articles/webcasty.html?icid=bn_webcasty" target="_self">Webinary</a></li>
+
+
+                </ul>
+                <!-- Footer CTA end-->
+            </div>
+
+            <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--tablet--12 aem-GridColumn--phone--12">
+                <!-- Footer secondary social start-->
+
+                <!-- Footer secondary social end-->
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer Top Bar ends -->
+
+    <!-- Footer Utility Bar starts -->
+
+        <div class="cmp-footer__utility-bar" id="footer__utility-bar">
+            <div class="cmp-container-width aem-Grid aem-Grid--12">
+                <div class="aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--phone--12">
+
+                    <!-- Footer Office location links start -->
+                    <div class="cmp-footer__utility-bar__loc">
+                        <a href="/pl/pl/footerlinks/global-office-directory.html?icid=bottom_global-office-directory" title="Global Office Directory" class="cmp-footer__utility-bar__loc-directory">Global Office Directory</a>
+                        <a href="/pl/pl/footerlinks1/o-deloitte.html?icid=bottom_o-deloitte" title="O firmie Deloitte" class="cmp-footer__utility-bar__loc-office">O firmie Deloitte</a>
+                    </div>
+                    <!-- Footer Office location links end -->
+
+                    <!-- Footer site selector start-->
+                    <div class="cmp-footer__utility-bar__loc">
+
+
+<a href="javascript:void(0)" class="cmp-header__ut-nav__site-sel__link location-link" data-toggle="siteSelector" aria-expanded="false" role="button">
+    <span class="desk-countrySelector">PL-PL</span>
+    <span class="mobile-location">Lokalizacja:</span>
+    <span class="mobile-countrySelector">Poland-Polish</span>
+    &nbsp;
+    <i class="icon-chevron"></i>
+</a>
+                    </div>
+                    <!-- Footer site selector end-->
+
+                </div>
+
+                <!-- Footer About Deloitte start-->
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
+                    <div class="cmp-footer__utility-bar__about">
+                        <a class="cmp-footer__utility-bar__about-link" id="footer__utility-bar__about"></a>
+                    </div>
+                </div>
+                <!-- Footer About Deloitte end-->
+            </div>
+        </div>
+
+    <!-- Footer Utility Bar ends -->
+
+    <!-- Footer Links starts -->
+    <div class="cmp-footer__links">
+        <div class="cmp-container-width aem-Grid aem-Grid--12">
+
+            <div class="cmp-footer__links-get-connected aem-GridColumn aem-GridColumn--default--2 aem-GridColumn--phone--12" id="footer__links-get-connected">
+                <ul>
+
+
+
+                            <li><a href="/pl/pl.html?icid=bottom_pl">Strona główna</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/informacje-prasowe.html?icid=bottom_informacje-prasowe">Informacje prasowe</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/biuro-prasowe.html?icid=bottom_biuro-prasowe">Biuro prasowe Deloitte</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/o-deloitte.html?icid=bottom_o-deloitte">Aktualności nt. Deloitte</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/subskrypcje.html?icid=bottom_subskrypcje">Subskrypcje</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/wydarzenia.html?icid=bottom_wydarzenia">Wydarzenia</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/global-office-directory.html?icid=bottom_global-office-directory">Global Office Directory</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/office-locator.html?icid=bottom_office-locator">Adresy biur</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/submit-rfp.html?icid=bottom_submit-rfp">Prześlij zapytanie ofertowe</a></li>
+
+
+
+
+                            <li><a href="/pl/pl/footerlinks/contact-us.html?icid=bottom_contact-us">Kontakt</a></li>
+
+
+                </ul>
+
+                <div id="footer__social" class="social-media-links">
+
+
+	                    <ul>
+
+	                            <li><a class="icon-facebook" href="http://www.facebook.com/deloittepolska" title="śledź deloitte polska na facebooku"></a></li>
+
+
+
+	                            <li><a class="icon-twitter" href="https://twitter.com/deloittepolska" title="śledź deloitte polska na twitterze"></a></li>
+
+
+
+	                            <li><a class="icon-linkedin" href="https://www.linkedin.com/company/deloitte/" title="śledź deloitte polska na linkedin"></a></li>
+
+
+
+	                            <li><a class="icon-youtube" href="http://www.youtube.com/user/deloittepolska" title="śledź deloitte polska na youtube"></a></li>
+
+	                    </ul>
+
+                </div>
+            </div>
+
+            <div class="cmp-footer__links-target aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12" id="footer__links-target">
+                <!-- Target will populate featured section -->
+            </div>
+
+
+                <div class="aem-GridColumn aem-GridColumn--default--2 aem-GridColumn--phone--12" id="footer__links-services">
+                    <h5>Usługi</h5>
+                    <ul>
+
+                            <li><a href="/pl/pl/services/audit.html?icid=bottom_audit">Audit &amp; Assurance</a></li>
+
+                            <li><a href="/pl/pl/services/consulting.html?icid=bottom_consulting">Consulting</a></li>
+
+                            <li><a href="/pl/pl/services/doradztwo-finansowe.html?icid=bottom_doradztwo-finansowe">Doradztwo finansowe</a></li>
+
+                            <li><a href="/pl/pl/services/doradztwo-prawne.html?icid=bottom_doradztwo-prawne">Doradztwo prawne</a></li>
+
+                            <li><a href="/pl/pl/pages/risk/topics/risk-advisory.html?icid=bottom_risk">Zarządzanie ryzykiem</a></li>
+
+                            <li><a href="/pl/pl/services/Podatki.html?icid=bottom_Podatki">Doradztwo podatkowe</a></li>
+
+                            <li><a href="/pl/pl/services/deloitte-digital.html?icid=bottom_deloitte-digital">Deloitte Digital</a></li>
+
+                            <li><a href="/pl/pl/services/Forensics.html?icid=bottom_Forensics">Forensic, AML i compliance</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12" id="footer__links-industries">
+                    <h5>Specjalizacje branżowe</h5>
+                    <ul>
+
+                            <li><a href="/pl/pl/industries/public-sector.html?icid=bottom_public-sector">Administracja i Sektor Publiczny</a></li>
+
+                            <li><a href="/pl/pl/industries/dobra-konsumenckie.html?icid=bottom_dobra-konsumenckie">Dobra konsumenckie</a></li>
+
+                            <li><a href="/pl/pl/industries/energetyka.html?icid=bottom_energetyka">Energetyka, Surowce i Przemysł</a></li>
+
+                            <li><a href="/pl/pl/industries/medycyna-i-ochrona-zdrowia.html?icid=bottom_medycyna-i-ochrona-zdrowia">Life Sciences i ochrona zdrowia</a></li>
+
+                            <li><a href="/pl/pl/industries/financial-services.html?icid=bottom_financial-services">Sektor finansowy</a></li>
+
+                            <li><a href="/pl/pl/industries/technology-media-and-telecommunications.html?icid=bottom_technology-media-and-telecommunications">Technologie, media i telekomunikacja</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="aem-GridColumn aem-GridColumn--default--2 aem-GridColumn--phone--12" id="footer__links-careers">
+                    <h5>Kariera</h5>
+                    <ul>
+
+                            <li><a href="/pl/pl/careers/studenci.html?icid=bottom_studenci">Studenci i Absolwenci</a></li>
+
+                            <li><a href="/pl/pl/careers/specjalisci.html?icid=bottom_specjalisci">Specjaliści</a></li>
+
+                            <li><a href="https://pl.career.deloittece.com/home?icid=bottom_">Wyszukiwarka ofert pracy i praktyk</a></li>
+
+                            <li><a href="https://www2.deloitte.com/pl/alumni?icid=bottom_">Alumni</a></li>
+
+                            <li><a href="https://ssl.deloitte.pl/kariera/wydarzenia?icid=bottom_">Wydarzenia rekrutacyjne</a></li>
+
+                    </ul>
+                </div>
+
+
+        </div>
+
+        <!-- footer legal links start-->
+        <div class="cmp-footer__links-legal cmp-container-width aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--phone--12" id="footer__links-legal">
+            <ul>
+
+
+                        <li><a href="/pl/pl/footerlinks1/o-deloitte.html?icid=bottom_o-deloitte">O Deloitte</a></li>
+
+                        <li><a href="/pl/pl/footerlinks1/legal.html?icid=bottom_legal">Zastrzeżenia prawne</a></li>
+
+                        <li><a href="/pl/pl/footerlinks1/privacy.html?icid=bottom_privacy">Polityka prywatności</a></li>
+
+                        <li><a href="/pl/pl/footerlinks1/cookies.html?icid=bottom_cookies">Polityka Cookies</a></li>
+
+                        <li><a href="/pl/pl/footerlinks1/kodeks-etyczny.html?icid=bottom_kodeks-etyczny">Kodeks etyczny</a></li>
+
+                        <li><a href="/pl/pl/footerlinks1/sprawozdanie-z-przejrzystosci-dzialania.html?icid=bottom_sprawozdanie-z-przejrzystosci-dzialania">Sprawozdanie z przejrzystości działania</a></li>
+
+
+            </ul>
+        </div>
+        <!-- footer legal links end -->
+
+    </div>
+    <!-- Footer Links ends -->
+
+    <!-- Footer Bottom Bar starts -->
+    <div class="cmp-footer__copy-rights cmp-container-width aem-Grid aem-Grid--12">
+        <div class="aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--phone--12">
+            <div class="cmp-footer__disclaimer" id="footer__disclaimer">
+                <p><p
+    style="font-family: tahoma , arial , helvetica , sans-serif;font-size: 12.0px;"><span
+      class="small-body-copy">© 2021. Zobacz <a href="/pl/pl/legal/legal.html">Zastrzeżenia Prawne</a> aby dowiedzieć się więcej.</span></p>
+
+<p
+    style="font-family: tahoma , arial , helvetica , sans-serif;font-size: 12.0px;"><span
+      class="small-body-copy">Nazwa Deloitte odnosi się do jednej lub kilku jednostek Deloitte Touche Tohmatsu Limited, prywatnego podmiotu prawa brytyjskiego z ograniczoną odpowiedzialnością („DTTL”), jego firm członkowskich oraz podmiotów powiązanych. DTTL oraz każda z firm członkowskich stanowią oddzielne i niezależne podmioty prawne. Firma DTTL (zwana również „Deloitte Global”) nie świadczy usług dla klientów. Dokładny opis DTTL oraz firm członkowskich można znaleźć na stronie <a href="/pl/pl/legal/o-deloitte.html">www.deloitte.com/pl/onas</a>.</span></p>
+
+
+</p>
+            </div>
+        </div>
+        <div class="aem-GridColumn aem-GridColumn--default--2 aem-GridColumn--phone--12">
+            <div id="footer__sponsor-logo" class="cmp-footer__sponsor-logo"> <a href="http://www2.deloitte.com/pl/pl/pages/press-releases/articles/Polski-sport-i-biznes-wspolnie-wkraczaja-w-rok-olimpijski.html"> <img src="/content/dam/Deloitte/pl/Images/misc/ZNAK_PKOL_POL.jpg" alt="Deloitte oficjalnym sponsorem PKOl" width="200px" height="383px"/> </a> </div>
+        </div>
+    </div>
+    <!-- Footer Bottom Bar ends -->
+</footer>
+
+
+
+
+
+<div class="site-selector">
+
+    <div class="site-selector__container visibility-hidden" id="site-options" tabindex="-1" role="dialog">
+        <div role="search">
+             <input type="text" size="10" class="gsc-input" name="qr" title="search" id="siteSearch" enableOrderBy="true" spellcheck="false" placeholder="Type location" autocomplete="off"/>
+            <span class="icon-search search-option"></span>
+        </div>
+
+
+        <div class="site-selector__container__list" id="site-selector">
+
+            <ul class="channel-site"></ul>
+        </div>
+
+
+        <div class="site-selector__container__site-info"></div>
+    </div>
+</div>
+
+<div class="modal-backdrop fade in visibility-hidden"></div>
+
+
+
+
+<!-- Footer component ends--></div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/dcom/extendedtopicpage-libs.min.9f50c7d63ef135191f96a2e8e6ca4d9f.js"></script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/etc/designs/dcom/dcom-main-footer.min.f42d755b3cbcb50f86bfb40054c1ffc4.js"></script>
+
+
+
+
+
+
+
+
+<div class="servicecomponents cloudservices"><div class="cloudservice generictracker">
+    <script type="text/javascript">
+    </script>
+<script type="text/plain" class="optanon-category-2">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','psDeldataLayer','GTM-NBZMNVG');
+</script>
+
+
+<script type="text/plain" class="optanon-category-8" src="https://img.en25.com/i/elqCfg.min.js"> </script>
+
+	<script type="text/plain" class="optanon-category-8">
+
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '902355443']);
+	_elqQ.push(['elqTrackPageView']);
+
+	(function() {
+	function async_load() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = '//img06.en25.com/i/elqCfg.min.js';
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+	}
+	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+	else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+	</script></div>
+	</div>
+	<script>
+	$(document.body).on("pageReady",function(event, y, z){
+
+	console.log(event.type);
+
+	});
+	//Finally, register a Page Load callback and call the execute method on JQuery Page Load event.
+	$(function() {
+
+	var executeDeferred = pageLoadFramework.executePageLoadEvents();
+
+	//The execute method returns a deferred. So, if something needs to wait for it, this is how you do it.
+	executeDeferred.done(function(){
+
+
+	});
+	});
+
+	$(function() {
+
+	if(window.location.href.indexOf('/careers/') > 0) {
+	$('.submit-rfp').remove();
+	}
+	});
+
+
+
+
+    </script>
+</div>
+
+</div>
+<script>
+$(document.body).on("pageReady",function(event, y, z){
+
+	console.log(event.type);
+
+});
+//Finally, register a Page Load callback and call the execute method on JQuery Page Load event.
+	$(function() {
+
+		var executeDeferred = pageLoadFramework.executePageLoadEvents();
+
+		//The execute method returns a deferred.  So, if something needs to wait for it, this is how you do it.
+		executeDeferred.done(function(){
+
+
+		});
+	});
+
+    /*$(function() {
+
+		if(window.location.href.indexOf('/careers/') > 0) {
+      		 $('.submit-rfp').remove();
+  		}
+	});*/
+
+</script>
+        </body>
+</html>

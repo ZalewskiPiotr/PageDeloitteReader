@@ -1,0 +1,8 @@
+Struktura pliku, który przechowuje informacje o odczytanych artykułach. Plik jest w formacie xml
+<?xml version="1.0"?>
+<articles>
+    <article new="true/false" read="true/false">
+        <title>tytuł artykułu</title>
+        <link>link do artykułu</link>
+    </article>
+</articles>
